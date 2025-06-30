@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-') }}" lang="zxx">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -9,7 +10,7 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/frontend/img/favicon.ico') }}">
 
-	<!-- CSS here -->
+    <!-- CSS here -->
 
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/owl.carousel.min.css') }}">
@@ -27,7 +28,7 @@
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Font Awesome 5 or 6 CDN -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 
 </head>
@@ -57,10 +58,11 @@
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="header-info-left d-flex">
                                     <ul>
+                                        <li><a href="#">Handicraft Federation</a></li>
                                         <li>Phone: +99 (0) 101 0000 888</li>
                                         <li>Email: noreply@yourdomain.com</li>
                                     </ul>
-                                    <div class="header-social">
+                                    <!-- <div class="header-social">
                                         <ul>
                                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                             <li><a href="https://www.facebook.com/sai4ull"><i
@@ -68,10 +70,21 @@
                                             <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                                             <li> <a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                                         </ul>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="header-info-right d-flex align-items-center">
-                                    <div class="select-this">
+                                    <div class="header-info-left d-flex">
+                                        <div class="header-social">
+                                            <ul>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://www.facebook.com/sai4ull"><i
+                                                            class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                                <li> <a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="select-this">
                                         <form action="#">
                                             <div class="select-itms">
                                                 <select name="select" id="select1">
@@ -82,10 +95,10 @@
                                                 </select>
                                             </div>
                                         </form>
-                                    </div>
-                                    <ul class="contact-now">
+                                    </div> -->
+                                    <!-- <ul class="contact-now">
                                         <li><a href="#">Subscribe Now</a></li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
                             </div>
                         </div>
@@ -98,7 +111,7 @@
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img src="{{ asset('assets/frontend/img/logo/logo.png') }} " alt="Profile">
+                                        <img src="{{ asset('assets/frontend/img/logo/logo2.png') }} " alt="Profile">
 
                                         {{-- <img src="assets/frontend/img/logo/logo.png" alt=""> --}}
                                     </a>
@@ -111,8 +124,8 @@
                                         <nav>
                                             <ul id="navigation">
                                                 <li><a href="index.html">Home</a></li>
-                                                 <li><a href="about.html">About</a></li>
-                                                 <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="about.html">About</a></li>
+                                                <li><a href="contact.html">Contact</a></li>
                                                 {{--<li><a href="program.html">latest causes</a></li>
                                                 <li><a href="events.html">social events </a></li>
                                                 <li><a href="blog.html">Blog</a>
@@ -145,30 +158,32 @@
     </header>
 
 
-    
+
     {{-- <div class="container"> --}}
-        @yield('content')
+    @yield('content')
     {{-- </div> --}}
 
     <footer>
-        <div class="footer-wrapper section-bg2" data-background= "{{ asset('assets/frontend/img/gallery/footer_bg.png') }} " alt="Profile">
+        <div class="footer-wrapper section-bg2"
+            data-background="{{ asset('assets/frontend/img/gallery/footer_bg.png') }} " alt="Profile">
             <!-- Footer Top-->
             <div class="footer-area footer-padding">
                 <div class="container">
                     <div class="row d-flex justify-content-between">
                         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-footer-caption mb-50">
-                            <div class="single-footer-caption mb-30">
-                                <div class="footer-tittle">
-                                    <div class="footer-logo mb-20">
-                                        <a href="index.html">
-                                            <img src="{{ asset('assets/frontend/img/logo/logo2_footer.png') }} " alt="Profile">
+                            <div class="single-footer-caption mb-50">
+                                <div class="single-footer-caption mb-30">
+                                    <div class="footer-tittle">
+                                        <div class="footer-logo mb-20">
+                                            <a href="index.html">
+                                                <img src="{{ asset('assets/frontend/img/logo/logo2_footer.png') }} "
+                                                    alt="Profile">
 
-                                        </a>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
                             <div class="single-footer-caption mb-50">
@@ -204,24 +219,27 @@
                                 <div class="footer-tittle">
                                     <h4>Newsletter</h4>
                                     <div class="footer-pera footer-pera2">
-                                    <p>Heaven fruitful doesn't over lesser in days. Appear creeping.</p>
-                                </div>
-                                <!-- Form -->
-                                <div class="footer-form" >
-                                    <div id="mc_embed_signup">
-                                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                                        method="get" class="subscribe_form relative mail_part">
-                                            <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
-                                            class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
-                                            onblur="this.placeholder = ' Email Address '">
-                                            <div class="form-icon">
-                                                <button type="submit" name="submit" id="newsletter-submit"
-                                                class="email_icon newsletter-submit button-contactForm"><img src="assets/frontend/img/gallery/form.png" alt=""></button>
-                                            </div>
-                                            <div class="mt-10 info"></div>
-                                        </form>
+                                        <p>Heaven fruitful doesn't over lesser in days. Appear creeping.</p>
                                     </div>
-                                </div>
+                                    <!-- Form -->
+                                    <div class="footer-form">
+                                        <div id="mc_embed_signup">
+                                            <form target="_blank"
+                                                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                                method="get" class="subscribe_form relative mail_part">
+                                                <input type="email" name="email" id="newsletter-form-email"
+                                                    placeholder="Email Address" class="placeholder hide-on-focus"
+                                                    onfocus="this.placeholder = ''"
+                                                    onblur="this.placeholder = ' Email Address '">
+                                                <div class="form-icon">
+                                                    <button type="submit" name="submit" id="newsletter-submit"
+                                                        class="email_icon newsletter-submit button-contactForm"><img
+                                                            src="assets/frontend/img/gallery/form.png" alt=""></button>
+                                                </div>
+                                                <div class="mt-10 info"></div>
+                                            </form>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -235,15 +253,21 @@
                         <div class="row d-flex justify-content-between align-items-center">
                             <div class="col-xl-10 col-lg-9 ">
                                 <div class="footer-copy-right">
-                                    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                    <p>
+                                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                        Copyright &copy;<script>
+                                        document.write(new Date().getFullYear());
+                                        </script> All rights reserved | This template is made with <i
+                                            class="fa fa-heart" aria-hidden="true"></i> by <a
+                                            href="https://colorlib.com" target="_blank">Colorlib</a>
+                                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-xl-2 col-lg-3">
                                 <div class="footer-social f-right">
                                     <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a  href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
                                     <a href="#"><i class="fas fa-globe"></i></a>
                                     <a href="#"><i class="fab fa-behance"></i></a>
                                 </div>
@@ -256,7 +280,7 @@
     </footer>
 
     <!-- Scroll Up -->
-    <div id="back-top" >
+    <div id="back-top">
         <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
     </div>
 
@@ -308,5 +332,6 @@
     <script src="{{ asset('assets/frontend/js/plugins.js') }}"></script>
     <script src="{{ asset('assets/frontend/js/main.js') }}"></script>
 
-    </body>
+</body>
+
 </html>

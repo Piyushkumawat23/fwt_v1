@@ -3153,6 +3153,12 @@ hr {
   font-weight: 500;
 }
 
+.header-area .header-top .header-info-left > ul > li > a{
+  color: #687693;
+  font-weight: 800;
+  font-size: 20px;
+}
+
 /* line 45, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_headerMenu.scss */
 .header-area .header-top .header-info-left > ul > li:last-child {
   margin-right: 0px;
