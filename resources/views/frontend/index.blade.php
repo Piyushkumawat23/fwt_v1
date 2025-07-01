@@ -4,9 +4,9 @@
 
 
     <!-- ? Preloader Start -->
-   
+
     <!-- Preloader Start -->
-    
+
     <!-- header end -->
     <main>
         <!-- slider Area Start-->
@@ -355,7 +355,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-team mb-30">
                             <div class="team-img">
-                                <img src="{{ asset('assets/frontend/img/gallery/team1.png') }} " alt="Profile">
+                                <img src="{{ asset('assets/frontend/img/gallery/maya-suwalka-16.jpeg') }} " alt="Profile">
 
                                 <!-- Blog Social -->
                                 <ul class="team-social">
@@ -373,7 +373,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-team mb-30">
                             <div class="team-img">
-                                <img src="{{ asset('assets/frontend/img/gallery/team2.png') }} " alt="Profile">
+                                <img src="{{ asset('assets/frontend/img/gallery/suresh-pareta-7.jpeg') }} " alt="Profile">
 
                                 <!-- Blog Social -->
                                 <ul class="team-social">
@@ -391,7 +391,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-team mb-30">
                             <div class="team-img">
-                                <img src="{{ asset('assets/frontend/img/gallery/team3.png') }} " alt="Profile">
+                                <img src="{{ asset('assets/frontend/img/gallery/rajesh-talwar-6.jpeg') }} " alt="Profile">
 
                                 <!-- Blog Social -->
                                 <ul class="team-social">
@@ -409,7 +409,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-team mb-30">
                             <div class="team-img">
-                                <img src="{{ asset('assets/frontend/img/gallery/team4.png') }} " alt="Profile">
+                                <img src="{{ asset('assets/frontend/img/gallery/about2.png') }} " alt="Profile">
 
                                 <!-- Blog Social -->
                                 <ul class="team-social">

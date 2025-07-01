@@ -1,5 +1,6 @@
 <!doctype html>
-<html class="no-') }}" lang="zxx">
+{{-- <html class="no-') }}" lang="zxx"> --}}
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -40,7 +41,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="{{ asset('assets/frontend/img/logo/loder.png') }} " alt="Profile">
+                    <img src="{{ asset('assets/frontend/img/logo/loder1.png') }} " alt="Profile">
 
                 </div>
             </div>
@@ -58,7 +59,7 @@
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="header-info-left d-flex">
                                     <ul>
-                                        <li><a href="#">Handicraft Federation</a></li>
+                                        <li><a href="index.php">Handicraft Federation</a></li>
                                         <li>Phone: +99 (0) 101 0000 888</li>
                                         <li>Email: noreply@yourdomain.com</li>
                                     </ul>
@@ -111,7 +112,7 @@
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img src="{{ asset('assets/frontend/img/logo/logo2.png') }} " alt="Profile">
+                                        <img src="{{ asset('assets/frontend/img/logo/logo1.png') }} " alt="Profile">
 
                                         {{-- <img src="assets/frontend/img/logo/logo.png" alt=""> --}}
                                     </a>
@@ -123,9 +124,9 @@
                                     <div class="main-menu d-none d-lg-block">
                                         <nav>
                                             <ul id="navigation">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="{{ url('/') }}">Home</a></li>
+                                                <li><a href="{{ url('/about') }}">About</a></li>
+                                                <li><a href="{{ url('/contact') }}">Contact</a></li>
                                                 {{--<li><a href="program.html">latest causes</a></li>
                                                 <li><a href="events.html">social events </a></li>
                                                 <li><a href="blog.html">Blog</a>
@@ -141,7 +142,7 @@
                                     </div>
                                     <!-- Header-btn -->
                                     <div class="header-right-btn d-none d-lg-block ml-20">
-                                        <a href="contact.html" class="btn header-btn">Donate</a>
+                                        <a href="{{ url('/contact') }}" class="btn header-btn">Donate</a>
                                     </div>
                                 </div>
                             </div>
@@ -205,11 +206,11 @@
                                 <div class="footer-tittle">
                                     <h4>Important Link</h4>
                                     <ul>
-                                        <li><a href="#"> View Project</a></li>
-                                        <li><a href="#">Contact Us</a></li>
-                                        <li><a href="#">Testimonial</a></li>
+                                        {{-- <li><a href="#"> View Project</a></li> --}}
+                                        <li><a href="{{ url('/contact') }}">Contact Us</a></li>
+                                        {{-- <li><a href="#">Testimonial</a></li>
                                         <li><a href="#">Proparties</a></li>
-                                        <li><a href="#">Support</a></li>
+                                        <li><a href="#">Support</a></li> --}}
                                     </ul>
                                 </div>
                             </div>
