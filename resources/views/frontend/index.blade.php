@@ -272,7 +272,7 @@
                             <div class="job-items">
                                 <div class="company-img">
                                     <a href="#">
-                                        <img src="{{ asset('assets/frontend/img/gallery/socialEvents1.png') }} "
+                                        <img src="{{ asset('assets/frontend/img/gallery/1623912545.10.jpeg') }} "
                                             alt="Profile">
                                     </a>
                                 </div>
@@ -295,7 +295,7 @@
                             <div class="job-items">
                                 <div class="company-img">
                                     <a href="#">
-                                        <img src="{{ asset('assets/frontend/img/gallery/socialEvents2.png') }} "
+                                        <img src="{{ asset('assets/frontend/img/gallery/1623912545.9.jpeg') }} "
                                             alt="Profile">
                                     </a>
                                 </div>
@@ -318,7 +318,7 @@
                             <div class="job-items">
                                 <div class="company-img">
                                     <a href="#">
-                                        <img src="{{ asset('assets/frontend/img/gallery/socialEvents3.png') }} "
+                                        <img src="{{ asset('assets/frontend/img/gallery/1623912538.15.jpeg') }} "
                                             alt="Profile">
                                     </a>
                                 </div>
@@ -409,7 +409,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-team mb-30">
                             <div class="team-img">
-                                <img src="{{ asset('assets/frontend/img/gallery/about2.png') }} " alt="Profile">
+                                <img src="{{ asset('assets/frontend/img/gallery/about3.jpeg') }} " alt="Profile">
 
                                 <!-- Blog Social -->
                                 <ul class="team-social">
@@ -432,7 +432,7 @@
         <section class="wantToWork-area ">
             <div class="container">
                 <div class="wants-wrapper w-padding2  section-bg"
-                    data-background="{{ asset('assets/frontend/img/gallery/section_bg01.png') }} " alt="Profile">
+                    data-background="{{ asset('assets/frontend/img/gallery/h1_hero.jpg') }} " alt="Profile">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-xl-5 col-lg-9 col-md-8">
                             <div class="wantToWork-caption wantToWork-caption2">
@@ -537,7 +537,7 @@
                         <div class="home-blog-single mb-30">
                             <div class="blog-img-cap">
                                 <div class="blog-img">
-                                    <img src="{{ asset('assets/frontend/img/gallery/home-blog1.png') }} " alt="Profile">
+                                    <img src="{{ asset('assets/frontend/img/gallery/New Microsoft Office Word Document - Copy.jpg') }} " alt="Profile">
 
                                     <!-- Blog date -->
                                     <div class="blog-date text-center">
@@ -557,7 +557,7 @@
                         <div class="home-blog-single mb-30">
                             <div class="blog-img-cap">
                                 <div class="blog-img">
-                                    <img src="{{ asset('assets/frontend/img/gallery/home-blog2.png') }} " alt="Profile">
+                                    <img src="{{ asset('assets/frontend/img/gallery/New Microsoft Office Word Document.jpg') }} " alt="Profile">
 
                                     <!-- Blog date -->
                                     <div class="blog-date text-center">
@@ -578,7 +578,7 @@
         </section>
         <!-- Blog Area End -->
         <!--? Count Down Start -->
-        <div class="count-down-area pt-25 section-bg" data-background="{{ asset('assets/frontend/img/gallery/section_bg02.png') }} " alt="Profile">
+        <div class="count-down-area pt-25 section-bg" data-background="{{ asset('assets/frontend/img/gallery/my1.jpeg') }} " alt="Profile">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12 col-md-12">

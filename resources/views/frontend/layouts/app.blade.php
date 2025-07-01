@@ -112,7 +112,7 @@
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img src="{{ asset('assets/frontend/img/logo/logo1.png') }} " alt="Profile">
+                                        <img src="{{ asset('assets/frontend/img/logo/logo2.png') }} " alt="Profile">
 
                                         {{-- <img src="assets/frontend/img/logo/logo.png" alt=""> --}}
                                     </a>
@@ -177,7 +177,7 @@
                                     <div class="footer-tittle">
                                         <div class="footer-logo mb-20">
                                             <a href="index.html">
-                                                <img src="{{ asset('assets/frontend/img/logo/logo2_footer.png') }} "
+                                                <img src="{{ asset('assets/frontend/img/logo/logo1_footer.png') }} "
                                                     alt="Profile">
 
                                             </a>
