@@ -207,6 +207,8 @@
                                     <h4>Important Link</h4>
                                     <ul>
                                         {{-- <li><a href="#"> View Project</a></li> --}}
+                                        <li><a href="{{ url('/') }}">Home</a></li>
+                                        <li><a href="{{ url('/about') }}">About</a></li>
                                         <li><a href="{{ url('/contact') }}">Contact Us</a></li>
                                         {{-- <li><a href="#">Testimonial</a></li>
                                         <li><a href="#">Proparties</a></li>
