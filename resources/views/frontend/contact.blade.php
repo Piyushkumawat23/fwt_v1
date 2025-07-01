@@ -1,10 +1,10 @@
 @extends('frontend.layouts.app')
 
 @section('content')
-    <!--? Preloader Start -->
+
+<!--? Preloader Start -->
 
     <!-- Preloader Start -->
-
     <main>
         <!--? Hero Start -->
         <div class="slider-area2">
@@ -125,4 +125,4 @@
         </section>
         <!-- Contact Area End -->
     </main>
-@endsection
+ @endsection

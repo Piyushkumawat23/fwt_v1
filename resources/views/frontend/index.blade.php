@@ -460,8 +460,8 @@
                                     <!-- founder -->
                                     <div class="testimonial-founder">
                                         <div class="founder-img mb-40">
-                                            <img src="{{ asset('assets/frontend/img/gallery/<im') }} "
-                                                alt="Profile">
+                                          <img src="{{ asset('assets/frontend/img/gallery/testimonial.png') }} " alt="Profile">
+
 
                                             <span>Margaret Lawson</span>
                                             <p>Creative Director</p>
