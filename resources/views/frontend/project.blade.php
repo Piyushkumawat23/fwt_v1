@@ -98,7 +98,8 @@
                     <div class="about-img ">
                         {{-- <div class="about-font-img d-none d-lg-block">
                             <img src="{{ asset('assets/frontend/img/gallery/about4.png') }} "alt="Profile">
-                        </div> --}}
+                        </div>
+                         --}}
                         <div class="about-back-img ">
                             <img src="{{ asset('assets/frontend/img/gallery/Picture2.png') }} " alt="Profile">
 
