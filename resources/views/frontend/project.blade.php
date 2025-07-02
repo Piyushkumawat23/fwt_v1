@@ -97,11 +97,11 @@
                     <!-- about-img -->
                     <div class="about-img ">
                         {{-- <div class="about-font-img d-none d-lg-block">
-                            <img src="{{ asset('assets/frontend/img/gallery/about4.png') }} "alt="Profile">
+                            <img src="{{ asset('public/assets/frontend/img/gallery/about4.png') }} "alt="Profile">
                         </div>
                          --}}
                         <div class="about-back-img ">
-                            <img src="{{ asset('assets/frontend/img/gallery/Picture2.png') }} " alt="Profile">
+                            <img src="{{ asset('public/assets/frontend/img/gallery/Picture2.png') }} " alt="Profile">
 
                         </div>
                     </div>
@@ -119,7 +119,7 @@
             <!-- Left Image + Description -->
             <article class="col-md-6 col-sm-6 col-xs-12 filter-item ongoing-projects">
                 <div class="item">
-                    <img src="{{ asset('assets/frontend/img/gallery/1623912550.1.jpeg') }}" alt="Profile" width="100%" height="290">
+                    <img src="{{ asset('public/assets/frontend/img/gallery/1623912550.1.jpeg') }}" alt="Profile" width="100%" height="290">
                 </div>
                 <div class="bottom-content mt-2">
                     <a href="">
@@ -131,7 +131,7 @@
             <!-- Right Image + Description -->
             <article class="col-md-6 col-sm-6 col-xs-12 filter-item ongoing-projects">
                 <div class="item">
-                    <img src="{{ asset('assets/frontend/img/gallery/1623733891.WhatsApp Image 2021-06-14 at 6.39.57 PM.jpeg') }}" alt="Profile" width="100%" height="290">
+                    <img src="{{ asset('public/assets/frontend/img/gallery/1623733891.WhatsApp Image 2021-06-14 at 6.39.57 PM.jpeg') }}" alt="Profile" width="100%" height="290">
                 </div>
                 <div class="bottom-content mt-2">
                     <a href="">
@@ -141,7 +141,7 @@
             </article>
              {{-- <article class="col-md-6 col-sm-6 col-xs-12 filter-item ongoing-projects">
                 <div class="item">
-                    <img src="{{ asset('assets/frontend/img/gallery/1623912537.13.jpeg') }}" alt="Profile" width="100%" height="290">
+                    <img src="{{ asset('public/assets/frontend/img/gallery/1623912537.13.jpeg') }}" alt="Profile" width="100%" height="290">
                 </div>
                 <div class="bottom-content mt-2">
                     <a href="">
@@ -151,7 +151,7 @@
             </article>
              <article class="col-md-6 col-sm-6 col-xs-12 filter-item ongoing-projects">
                 <div class="item">
-                    <img src="{{ asset('assets/frontend/img/gallery/1623912538.12.jpeg') }}" alt="Profile" width="100%" height="290">
+                    <img src="{{ asset('public/assets/frontend/img/gallery/1623912538.12.jpeg') }}" alt="Profile" width="100%" height="290">
                 </div>
                 <div class="bottom-content mt-2">
                     <a href="">
@@ -161,7 +161,7 @@
             </article>
              <article class="col-md-6 col-sm-6 col-xs-12 filter-item ongoing-projects">
                 <div class="item">
-                    <img src="{{ asset('assets/frontend/img/gallery/1623733912.WhatsApp Image 2021-06-14 at 9.03.29 PM_1).jpeg') }}" alt="Profile" width="100%" height="290">
+                    <img src="{{ asset('public/assets/frontend/img/gallery/1623733912.WhatsApp Image 2021-06-14 at 9.03.29 PM_1).jpeg') }}" alt="Profile" width="100%" height="290">
                 </div>
                 <div class="bottom-content mt-2">
                     <a href="">
@@ -171,7 +171,7 @@
             </article>
              <article class="col-md-6 col-sm-6 col-xs-12 filter-item ongoing-projects">
                 <div class="item">
-                    <img src="{{ asset('assets/frontend/img/gallery/1623733889.WhatsApp Image 2021-06-14 at 6.27.44 PM.jpeg') }}" alt="Profile" width="100%" height="290">
+                    <img src="{{ asset('public/assets/frontend/img/gallery/1623733889.WhatsApp Image 2021-06-14 at 6.27.44 PM.jpeg') }}" alt="Profile" width="100%" height="290">
                 </div>
                 <div class="bottom-content mt-2">
                     <a href="">
@@ -181,7 +181,7 @@
             </article>
              <article class="col-md-6 col-sm-6 col-xs-12 filter-item ongoing-projects">
                 <div class="item">
-                    <img src="{{ asset('assets/frontend/img/gallery/1623733902.WhatsApp Image 2021-06-14 at 9.03.30 PM_2).jpeg') }}" alt="Profile" width="100%" height="290">
+                    <img src="{{ asset('public/assets/frontend/img/gallery/1623733902.WhatsApp Image 2021-06-14 at 9.03.30 PM_2).jpeg') }}" alt="Profile" width="100%" height="290">
                 </div>
                 <div class="bottom-content mt-2">
                     <a href="">
@@ -191,7 +191,7 @@
             </article>
              <article class="col-md-6 col-sm-6 col-xs-12 filter-item ongoing-projects">
                 <div class="item">
-                    <img src="{{ asset('assets/frontend/img/gallery/1623733902.WhatsApp Image 2021-06-14 at 8.32.57 PM.jpeg') }}" alt="Profile" width="100%" height="290">
+                    <img src="{{ asset('public/assets/frontend/img/gallery/1623733902.WhatsApp Image 2021-06-14 at 8.32.57 PM.jpeg') }}" alt="Profile" width="100%" height="290">
                 </div>
                 <div class="bottom-content mt-2">
                     <a href="">
@@ -201,7 +201,7 @@
             </article>
              <article class="col-md-6 col-sm-6 col-xs-12 filter-item ongoing-projects">
                 <div class="item">
-                    <img src="{{ asset('assets/frontend/img/gallery/1623733901.WhatsApp Image 2021-06-14 at 8.32.56 PM.jpeg') }}" alt="Profile" width="100%" height="290">
+                    <img src="{{ asset('public/assets/frontend/img/gallery/1623733901.WhatsApp Image 2021-06-14 at 8.32.56 PM.jpeg') }}" alt="Profile" width="100%" height="290">
                 </div>
                 <div class="bottom-content mt-2">
                     <a href="">
@@ -211,7 +211,7 @@
             </article>
              <article class="col-md-6 col-sm-6 col-xs-12 filter-item ongoing-projects">
                 <div class="item">
-                    <img src="{{ asset('assets/frontend/img/gallery/1623733900.WhatsApp Image 2021-06-14 at 9.03.30 PM.jpeg') }}" alt="Profile" width="100%" height="290">
+                    <img src="{{ asset('public/assets/frontend/img/gallery/1623733900.WhatsApp Image 2021-06-14 at 9.03.30 PM.jpeg') }}" alt="Profile" width="100%" height="290">
                 </div>
                 <div class="bottom-content mt-2" >
                     <a href="">
@@ -228,7 +228,7 @@
     <!-- Want To work -->
     {{-- <section class="wantToWork-area ">
         <div class="container">
-            <div class="wants-wrapper w-padding2  section-bg" data-background="{{ asset('assets/frontend/img/gallery/h1_hero.jpg') }} " alt="Profile">
+            <div class="wants-wrapper w-padding2  section-bg" data-background="{{ asset('public/assets/frontend/img/gallery/h1_hero.jpg') }} " alt="Profile">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-xl-5 col-lg-9 col-md-8">
                         <div class="wantToWork-caption wantToWork-caption2">
@@ -256,7 +256,7 @@
                                 <!-- founder -->
                                 <div class="testimonial-founder">
                                     <div class="founder-img mb-40">
-                                        <img src="{{ asset('assets/frontend/img/gallery/testimonial.png') }} " alt="Profile">
+                                        <img src="{{ asset('public/assets/frontend/img/gallery/testimonial.png') }} " alt="Profile">
 
                                         <span>Margaret Lawson</span>
                                         <p>Creative Director</p>
@@ -273,7 +273,7 @@
                                 <!-- founder -->
                                 <div class="testimonial-founder">
                                     <div class="founder-img mb-40">
-                                        <img src="{{ asset('assets/frontend/img/gallery/testimonial.png') }} " alt="Profile">
+                                        <img src="{{ asset('public/assets/frontend/img/gallery/testimonial.png') }} " alt="Profile">
 
                                         <span>Margaret Lawson</span>
                                         <p>Creative Director</p>
@@ -290,7 +290,7 @@
                                 <!-- founder -->
                                 <div class="testimonial-founder">
                                     <div class="founder-img mb-40">
-                                        <img src="{{ asset('assets/frontend/img/gallery/testimonial.png') }} " alt="Profile">
+                                        <img src="{{ asset('public/assets/frontend/img/gallery/testimonial.png') }} " alt="Profile">
 
                                         <span>Margaret Lawson</span>
                                         <p>Creative Director</p>
@@ -309,7 +309,7 @@
     <!-- Testimonial End -->
 
     <!--? Count Down Start -->
-    <div class="count-down-area pt-25 section-bg" data-background="{{ asset('assets/frontend/img/gallery/my1.jpeg') }} " alt="Profile">
+    <div class="count-down-area pt-25 section-bg" data-background="{{ asset('public/assets/frontend/img/gallery/my1.jpeg') }} " alt="Profile">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12 col-md-12">

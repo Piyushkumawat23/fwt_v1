@@ -9,24 +9,24 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/frontend/img/favicon.ico') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('public/assets/frontend/img/favicon.ico') }}">
 
     <!-- CSS here -->
 
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/owl.carousel.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/slicknav.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/flaticon.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/progressbar_barfiller.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/gijgo.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/animate.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/animated-headline.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/magnific-popup.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/fontawesome-all.min..css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/themify-icons.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/slick.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/nice-select.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/frontend/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/frontend/css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/frontend/css/slicknav.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/frontend/css/flaticon.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/frontend/css/progressbar_barfiller.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/frontend/css/gijgo.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/frontend/css/animate.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/frontend/css/animated-headline.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/frontend/css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/frontend/css/fontawesome-all.min..css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/frontend/css/themify-icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/frontend/css/slick.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/frontend/css/nice-select.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/frontend/css/style.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Font Awesome 5 or 6 CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -41,7 +41,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="{{ asset('assets/frontend/img/logo/loder1.png') }} " alt="Profile">
+                    <img src="{{ asset('public/assets/frontend/img/logo/loder1.png') }} " alt="Profile">
 
                 </div>
             </div>
@@ -112,9 +112,9 @@
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img src="{{ asset('assets/frontend/img/logo/logo3.jpg') }} " alt="Profile">
+                                        <img src="{{ asset('public/assets/frontend/img/logo/logo3.jpg') }} " alt="Profile">
 
-                                        {{-- <img src="assets/frontend/img/logo/logo.png" alt=""> --}}
+                                        {{-- <img src="public/assets/frontend/img/logo/logo.png" alt=""> --}}
                                     </a>
                                 </div>
                             </div>
@@ -168,7 +168,7 @@
 
     <footer>
         <div class="footer-wrapper section-bg2"
-            data-background="{{ asset('assets/frontend/img/gallery/footer_bg.png') }} " alt="Profile">
+            data-background="{{ asset('public/assets/frontend/img/gallery/footer_bg.png') }} " alt="Profile">
             <!-- Footer Top-->
             <div class="footer-area footer-padding">
                 <div class="container">
@@ -179,7 +179,7 @@
                                     <div class="footer-tittle">
                                         <div class="footer-logo mb-20">
                                             <a href="index.html">
-                                                <img src="{{ asset('assets/frontend/img/logo/logo1_footer.png') }} "
+                                                <img src="{{ asset('public/assets/frontend/img/logo/logo1_footer.png') }} "
                                                     alt="Profile">
 
                                             </a>
@@ -241,7 +241,7 @@
                                                 <div class="form-icon">
                                                     <button type="submit" name="submit" id="newsletter-submit"
                                                         class="email_icon newsletter-submit button-contactForm"><img
-                                                            src="assets/frontend/img/gallery/form.png" alt=""></button>
+                                                            src="public/assets/frontend/img/gallery/form.png" alt=""></button>
                                                 </div>
                                                 <div class="mt-10 info"></div>
                                             </form>
@@ -294,50 +294,50 @@
     <!-- JS here -->
 
     <script src="{{ asset('js/script.js') }}"></script>
-    <link rel="stylesheet" href="{{ asset('assets/frontend/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/assets/frontend/css/style.css') }}">
 
 
 
-    <script src="{{ asset('assets/frontend/js/vendor/modernizr-3.5.0.min.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/vendor/modernizr-3.5.0.min.js') }}"></script>
     <!-- Jquery, Popper, Bootstrap -->
-    <script src="{{ asset('assets/frontend/js/vendor/jquery-1.12.4.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/popper.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/vendor/jquery-1.12.4.min.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/popper.min.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/bootstrap.min.js') }}"></script>
     <!-- Jquery Mobile Menu -->
-    <script src="{{ asset('assets/frontend/js/jquery.slicknav.min.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/jquery.slicknav.min.js') }}"></script>
 
     <!-- Jquery Slick , Owl-Carousel Plugins -->
-    <script src="{{ asset('assets/frontend/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/slick.min.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/slick.min.js') }}"></script>
     <!-- One Page, Animated-HeadLin -->
-    <script src="{{ asset('assets/frontend/js/wow.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/animated.headline.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/jquery.magnific-popup.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/wow.min.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/animated.headline.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/jquery.magnific-popup.js') }}"></script>
 
     <!-- Date Picker -->
-    <script src="{{ asset('assets/frontend/js/gijgo.min.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/gijgo.min.js') }}"></script>
     <!-- Nice-select, sticky -->
-    <script src="{{ asset('assets/frontend/js/jquery.nice-select.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/jquery.sticky.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/jquery.sticky.js') }}"></script>
     <!-- Progress -->
-    <script src="{{ asset('assets/frontend/js/jquery.barfiller.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/jquery.barfiller.js') }}"></script>
 
     <!-- counter , waypoint,Hover Direction -->
-    <script src="{{ asset('assets/frontend/js/jquery.counterup.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/waypoints.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/jquery.countdown.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/hover-direction-snake.min.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/waypoints.min.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/jquery.countdown.min.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/hover-direction-snake.min.js') }}"></script>
 
     <!-- contact js -->
-    <script src="{{ asset('assets/frontend/js/contact.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/jquery.form.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/jquery.validate.min.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/mail-script.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/jquery.ajaxchimp.min.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/contact.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/jquery.form.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/jquery.validate.min.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/mail-script.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/jquery.ajaxchimp.min.js') }}"></script>
 
     <!-- Jquery Plugins, main Jquery -->
-    <script src="{{ asset('assets/frontend/js/plugins.js') }}"></script>
-    <script src="{{ asset('assets/frontend/js/main.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/plugins.js') }}"></script>
+    <script src="{{ asset('public/assets/frontend/js/main.js') }}"></script>
 
 </body>
 

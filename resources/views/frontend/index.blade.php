@@ -150,12 +150,12 @@
                             {{-- <div class="about-font-img d-none d-lg-block">
 
 
-                                <img src="{{ asset('assets/frontend/img/gallery/b0595a0b-cc90-4ade-9232-6ed96f2742d5.png') }} " alt="Profile">
+                                <img src="{{ asset('public/assets/frontend/img/gallery/b0595a0b-cc90-4ade-9232-6ed96f2742d5.png') }} " alt="Profile">
 
                             </div> --}}
                             <div class="about-back-img ">
 
-                                <img src="{{ asset('assets/frontend/img/gallery/about-home.jpeg') }} " alt="Profile">
+                                <img src="{{ asset('public/assets/frontend/img/gallery/about-home.jpeg') }} " alt="Profile">
 
                             </div>
                         </div>
@@ -180,7 +180,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cases mb-40">
                             <div class="cases-img">
-                                <img src="{{ asset('assets/frontend/img/gallery/Handicraft1.png') }} " alt="Profile">
+                                <img src="{{ asset('public/assets/frontend/img/gallery/Handicraft1.png') }} " alt="Profile">
 
                             </div>
                             <div class="cases-caption">
@@ -207,7 +207,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cases mb-40">
                             <div class="cases-img">
-                                <img src="{{ asset('assets/frontend/img/gallery/1623912538.12.jpeg') }} " alt="Profile">
+                                <img src="{{ asset('public/assets/frontend/img/gallery/1623912538.12.jpeg') }} " alt="Profile">
 
                             </div>
                             <div class="cases-caption">
@@ -234,7 +234,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cases mb-40">
                             <div class="cases-img">
-                                <img src="{{ asset('assets/frontend/img/gallery/1623912537.13.jpeg') }} " alt="Profile">
+                                <img src="{{ asset('public/assets/frontend/img/gallery/1623912537.13.jpeg') }} " alt="Profile">
 
                             </div>
                             <div class="cases-caption">
@@ -264,7 +264,7 @@
         <!-- Our Cases End -->
         <!-- Featured_job_start -->
         <section class="featured-job-area section-padding30 section-bg2"
-            data-background="assets/frontend/img/gallery/section_bg03.png">
+            data-background="public/assets/frontend/img/gallery/section_bg03.png">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12">
@@ -282,7 +282,7 @@
                             <div class="job-items">
                                 <div class="company-img">
                                     <a href="#">
-                                        <img src="{{ asset('assets/frontend/img/gallery/1623912545.10.jpeg') }} "
+                                        <img src="{{ asset('public/assets/frontend/img/gallery/1623912545.10.jpeg') }} "
                                             alt="Profile">
                                     </a>
                                 </div>
@@ -305,7 +305,7 @@
                             <div class="job-items">
                                 <div class="company-img">
                                     <a href="#">
-                                        <img src="{{ asset('assets/frontend/img/gallery/1623912545.9.jpeg') }} "
+                                        <img src="{{ asset('public/assets/frontend/img/gallery/1623912545.9.jpeg') }} "
                                             alt="Profile">
                                     </a>
                                 </div>
@@ -328,7 +328,7 @@
                             <div class="job-items">
                                 <div class="company-img">
                                     <a href="#">
-                                        <img src="{{ asset('assets/frontend/img/gallery/1623912538.15.jpeg') }} "
+                                        <img src="{{ asset('public/assets/frontend/img/gallery/1623912538.15.jpeg') }} "
                                             alt="Profile">
                                     </a>
                                 </div>
@@ -365,7 +365,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-team mb-30">
                             <div class="team-img">
-                                <img src="{{ asset('assets/frontend/img/gallery/maya-suwalka-16.jpeg') }} " alt="Profile">
+                                <img src="{{ asset('public/assets/frontend/img/gallery/maya-suwalka-16.jpeg') }} " alt="Profile">
 
                                 <!-- Blog Social -->
                                 <ul class="team-social">
@@ -383,7 +383,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-team mb-30">
                             <div class="team-img">
-                                <img src="{{ asset('assets/frontend/img/gallery/suresh-pareta-7.jpeg') }} " alt="Profile">
+                                <img src="{{ asset('public/assets/frontend/img/gallery/suresh-pareta-7.jpeg') }} " alt="Profile">
 
                                 <!-- Blog Social -->
                                 <ul class="team-social">
@@ -401,7 +401,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-team mb-30">
                             <div class="team-img">
-                                <img src="{{ asset('assets/frontend/img/gallery/rajesh-talwar-6.jpeg') }} " alt="Profile">
+                                <img src="{{ asset('public/assets/frontend/img/gallery/rajesh-talwar-6.jpeg') }} " alt="Profile">
 
                                 <!-- Blog Social -->
                                 <ul class="team-social">
@@ -419,7 +419,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-team mb-30">
                             <div class="team-img">
-                                <img src="{{ asset('assets/frontend/img/gallery/about3.jpeg') }} " alt="Profile">
+                                <img src="{{ asset('public/assets/frontend/img/gallery/about3.jpeg') }} " alt="Profile">
 
                                 <!-- Blog Social -->
                                 <ul class="team-social">
@@ -442,7 +442,7 @@
         <section class="wantToWork-area ">
             <div class="container">
                 <div class="wants-wrapper w-padding2  section-bg"
-                    data-background="{{ asset('assets/frontend/img/gallery/h1_hero.jpg') }} " alt="Profile">
+                    data-background="{{ asset('public/assets/frontend/img/gallery/h1_hero.jpg') }} " alt="Profile">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-xl-5 col-lg-9 col-md-8">
                             <div class="wantToWork-caption wantToWork-caption2">
@@ -470,7 +470,7 @@
                                     <!-- founder -->
                                     <div class="testimonial-founder">
                                         <div class="founder-img mb-40">
-                                          <img src="{{ asset('assets/frontend/img/gallery/testimonial.png') }} " alt="Profile">
+                                          <img src="{{ asset('public/assets/frontend/img/gallery/testimonial.png') }} " alt="Profile">
 
 
                                             <span>Margaret Lawson</span>
@@ -490,7 +490,7 @@
                                     <!-- founder -->
                                     <div class="testimonial-founder">
                                         <div class="founder-img mb-40">
-                                            <img src="{{ asset('assets/frontend/img/gallery/testimonial.png') }} " alt="Profile">
+                                            <img src="{{ asset('public/assets/frontend/img/gallery/testimonial.png') }} " alt="Profile">
 
                                             <span>Margaret Lawson</span>
                                             <p>Creative Director</p>
@@ -509,7 +509,7 @@
                                     <!-- founder -->
                                     <div class="testimonial-founder">
                                         <div class="founder-img mb-40">
-                                            <img src="{{ asset('assets/frontend/img/gallery/testimonial.png') }} "
+                                            <img src="{{ asset('public/assets/frontend/img/gallery/testimonial.png') }} "
                                                 alt="Profile">
 
                                             <span>Margaret Lawson</span>
@@ -546,7 +546,7 @@
                         <div class="home-blog-single mb-30">
                             <div class="blog-img-cap">
                                 <div class="blog-img">
-                                    <img src="{{ asset('assets/frontend/img/gallery/New Microsoft Office Word Document - Copy.jpg') }} " alt="Profile">
+                                    <img src="{{ asset('public/assets/frontend/img/gallery/New Microsoft Office Word Document - Copy.jpg') }} " alt="Profile">
 
                                     <!-- Blog date -->
                                     <div class="blog-date text-center">
@@ -566,7 +566,7 @@
                         <div class="home-blog-single mb-30">
                             <div class="blog-img-cap">
                                 <div class="blog-img">
-                                    <img src="{{ asset('assets/frontend/img/gallery/New Microsoft Office Word Document.jpg') }} " alt="Profile">
+                                    <img src="{{ asset('public/assets/frontend/img/gallery/New Microsoft Office Word Document.jpg') }} " alt="Profile">
 
                                     <!-- Blog date -->
                                     <div class="blog-date text-center">
@@ -587,7 +587,7 @@
         </section>
         <!-- Blog Area End -->
         <!--? Count Down Start -->
-        <div class="count-down-area pt-25 section-bg" data-background="{{ asset('assets/frontend/img/gallery/my1.jpeg') }} " alt="Profile">
+        <div class="count-down-area pt-25 section-bg" data-background="{{ asset('public/assets/frontend/img/gallery/my1.jpeg') }} " alt="Profile">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12 col-md-12">

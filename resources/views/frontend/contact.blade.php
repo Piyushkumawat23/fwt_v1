@@ -38,10 +38,10 @@
                     <!-- about-img -->
                     <div class="about-img ">
                         {{-- <div class="about-font-img d-none d-lg-block">
-                            <img src="{{ asset('assets/frontend/img/gallery/about4.png') }} "alt="Profile">
+                            <img src="{{ asset('public/assets/frontend/img/gallery/about4.png') }} "alt="Profile">
                         </div> --}}
                         <div class="about-back-img ">
-                            <img src="{{ asset('assets/frontend/img/gallery/Picture1.jpg') }} " alt="Profile">
+                            <img src="{{ asset('public/assets/frontend/img/gallery/Picture1.jpg') }} " alt="Profile">
 
                         </div>
                     </div>

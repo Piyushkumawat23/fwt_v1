@@ -107,10 +107,10 @@
                     <!-- about-img -->
                     <div class="about-img ">
                         {{-- <div class="about-font-img d-none d-lg-block">
-                            <img src="{{ asset('assets/frontend/img/gallery/about4.png') }} "alt="Profile">
+                            <img src="{{ asset('public/assets/frontend/img/gallery/about4.png') }} "alt="Profile">
                         </div> --}}
                         <div class="about-back-img ">
-                            <img src="{{ asset('assets/frontend/img/gallery/aboyt-page.jpg') }} " alt="Profile">
+                            <img src="{{ asset('public/assets/frontend/img/gallery/aboyt-page.jpg') }} " alt="Profile">
 
                         </div>
                     </div>
@@ -122,7 +122,7 @@
     <!-- Want To work -->
     <section class="wantToWork-area ">
         <div class="container">
-            <div class="wants-wrapper w-padding2  section-bg" data-background="{{ asset('assets/frontend/img/gallery/h1_hero.jpg') }} " alt="Profile">
+            <div class="wants-wrapper w-padding2  section-bg" data-background="{{ asset('public/assets/frontend/img/gallery/h1_hero.jpg') }} " alt="Profile">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-xl-5 col-lg-9 col-md-8">
                         <div class="wantToWork-caption wantToWork-caption2">
@@ -150,7 +150,7 @@
                                 <!-- founder -->
                                 <div class="testimonial-founder">
                                     <div class="founder-img mb-40">
-                                        <img src="{{ asset('assets/frontend/img/gallery/testimonial.png') }} " alt="Profile">
+                                        <img src="{{ asset('public/assets/frontend/img/gallery/testimonial.png') }} " alt="Profile">
 
                                         <span>Margaret Lawson</span>
                                         <p>Creative Director</p>
@@ -167,7 +167,7 @@
                                 <!-- founder -->
                                 <div class="testimonial-founder">
                                     <div class="founder-img mb-40">
-                                        <img src="{{ asset('assets/frontend/img/gallery/testimonial.png') }} " alt="Profile">
+                                        <img src="{{ asset('public/assets/frontend/img/gallery/testimonial.png') }} " alt="Profile">
 
                                         <span>Margaret Lawson</span>
                                         <p>Creative Director</p>
@@ -184,7 +184,7 @@
                                 <!-- founder -->
                                 <div class="testimonial-founder">
                                     <div class="founder-img mb-40">
-                                        <img src="{{ asset('assets/frontend/img/gallery/testimonial.png') }} " alt="Profile">
+                                        <img src="{{ asset('public/assets/frontend/img/gallery/testimonial.png') }} " alt="Profile">
 
                                         <span>Margaret Lawson</span>
                                         <p>Creative Director</p>
@@ -203,7 +203,7 @@
     <!-- Testimonial End -->
 
     <!--? Count Down Start -->
-    <div class="count-down-area pt-25 section-bg" data-background="{{ asset('assets/frontend/img/gallery/my1.jpeg') }} " alt="Profile">
+    <div class="count-down-area pt-25 section-bg" data-background="{{ asset('public/assets/frontend/img/gallery/my1.jpeg') }} " alt="Profile">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12 col-md-12">
