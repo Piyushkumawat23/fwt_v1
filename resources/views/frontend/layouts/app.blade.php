@@ -126,6 +126,8 @@
                                             <ul id="navigation">
                                                 <li><a href="{{ url('/') }}">Home</a></li>
                                                 <li><a href="{{ url('/about') }}">About</a></li>
+                                                <li><a href="{{ url('/objectives') }}">Objectives</a></li>
+                                                <li><a href="{{ url('/project') }}">Project</a></li>
                                                 <li><a href="{{ url('/contact') }}">Contact</a></li>
                                                 {{--<li><a href="program.html">latest causes</a></li>
                                                 <li><a href="events.html">social events </a></li>
@@ -192,7 +194,7 @@
                                     <h4>Contact Info</h4>
                                     <ul>
                                         <li>
-                                            <p>Address :Your address goes here, your demo address.</p>
+                                            <p>Branch Office/Postal Address – Handicraft Fedration Society, Mamta Circle, Mal Mohalla, Deoli Distt. Tonk Raj.</p>
                                         </li>
                                         <li><a href="#">Phone : +91 9571379419</a></li>
                                         <li><a href="#">Email : hfsbundi9252@gmail.com</a></li>
@@ -209,6 +211,8 @@
                                         {{-- <li><a href="#"> View Project</a></li> --}}
                                         <li><a href="{{ url('/') }}">Home</a></li>
                                         <li><a href="{{ url('/about') }}">About</a></li>
+                                        <li><a href="{{ url('/objectives') }}">Objectives</a></li>
+                                        <li><a href="{{ url('/project') }}">Project</a></li>
                                         <li><a href="{{ url('/contact') }}">Contact Us</a></li>
                                         {{-- <li><a href="#">Testimonial</a></li>
                                         <li><a href="#">Proparties</a></li>

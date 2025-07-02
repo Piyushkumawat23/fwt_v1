@@ -20,6 +20,35 @@
                 </div>
             </div>
         </div>
+        <section class="about-low-area section-padding2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-10">
+                    <div class="about-caption mb-50">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle mb-35">
+                            {{-- <span>About our foundetion</span> --}}
+                            <h2>Working Areas</h2>
+                        </div>
+                        <p>The working areas are wide spread in the some districts of Rajasthan state. Bundi, Tonk, Kota, Shahpura, Bhilwara, Ajmer. </p>
+                    </div>
+                    <a href="{{ url('/contact') }}" class="btn">About US</a>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <!-- about-img -->
+                    <div class="about-img ">
+                        {{-- <div class="about-font-img d-none d-lg-block">
+                            <img src="{{ asset('assets/frontend/img/gallery/about4.png') }} "alt="Profile">
+                        </div> --}}
+                        <div class="about-back-img ">
+                            <img src="{{ asset('assets/frontend/img/gallery/Picture1.jpg') }} " alt="Profile">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
         <!-- Hero End -->
         <!--?  Contact Area start  -->
         <section class="contact-section">

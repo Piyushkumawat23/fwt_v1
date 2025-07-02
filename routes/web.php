@@ -12,3 +12,15 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('frontend/contact');
     });
+
+Route::get('/objectives', function () {
+    return view('frontend/objectives');
+    });
+
+Route::get('/project', function () {
+    return view('frontend/project');
+    });
+
+Route::get('/project_details', function () {
+    return view('frontend/project_details');
+    });
