@@ -18,17 +18,16 @@
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
                                 <div class="hero__caption">
-                                    <h1 data-animation="fadeInUp" data-delay=".6s">Our Helping to<br> the world.</h1>
-                                    <P data-animation="fadeInUp" data-delay=".8s">Onsectetur adipiscing elit, sed do
-                                        eiusmod tempor incididunt ut bore et dolore magnt, sed do eiusmod.</P>
+                                    <h1 data-animation="fadeInUp" data-delay=".6s">A Steadfast Stroke to Fulfill Social Dreams</h1>
+                                    <P data-animation="fadeInUp" data-delay=".8s">Branch Office/Postal Address – Handicraft Fedration Society, Mamta Circle, Mal Mohalla, Deoli Distt. Tonk Raj.</P>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn">
-                                        <a href="industries.html" class="btn hero-btn mb-10" data-animation="fadeInLeft"
+                                        <a href="{{ url('/contact') }}" class="btn hero-btn mb-10" data-animation="fadeInLeft"
                                             data-delay=".8s">Donate</a>
-                                        <a href="industries.html" class="cal-btn ml-15" data-animation="fadeInRight"
+                                        <a href="{{ url('/contact') }}" class="cal-btn ml-15" data-animation="fadeInRight"
                                             data-delay="1.0s">
                                             <i class="flaticon-null"></i>
-                                            <p>+12 1325 41</p>
+                                            <p>+91 9571379419</p>
                                         </a>
                                     </div>
                                 </div>
@@ -82,7 +81,7 @@
                                 <span class="flaticon-null-1"></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Clean Water</a></h5>
+                                <h5><a href="{{ url('/') }}">Clean Water</a></h5>
                                 <p>The sea freight service has grown conside rably in recent years. We spend timetting
                                     to know your processes to.</p>
                             </div>
@@ -94,7 +93,7 @@
                                 <span class="flaticon-think"></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Clean Water</a></h5>
+                                <h5><a href="{{ url('/') }}">Clean Water</a></h5>
                                 <p>The sea freight service has grown conside rably in recent years. We spend timetting
                                     to know your processes to.</p>
                             </div>
@@ -106,7 +105,7 @@
                                 <span class="flaticon-gear"></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Clean Water</a></h5>
+                                <h5><a href="{{ url('/') }}">Clean Water</a></h5>
                                 <p>The sea freight service has grown conside rably in recent years. We spend timetting
                                     to know your processes to.</p>
                             </div>
@@ -124,28 +123,39 @@
                         <div class="about-caption mb-50">
                             <!-- Section Tittle -->
                             <div class="section-tittle mb-35">
-                                <span>About our foundetion</span>
-                                <h2>We Are In A Mission To Help Helpless</h2>
+                                {{-- <span>About our foundetion</span> --}}
+                                <h2>Foreword</h2>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore
-                                et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p>
-                            <p>Lorem ipvsum dolor sit amext, consectetur adipisicing elit, smod tempor incididunt ut
-                                labore et dolore.</p>
+                            <p>Hello Friends!!!!
+                                We are happy to present the Annual Progress Report of Handicraft Fedration Society (HFS)
+                                for the year 2022- 2023, 2023-24, 2024-25 which has been an extremely gratifying year.
+                                HFS is a nonprofit organization serving the community since 2012.  We are resolute to play
+                                a perceptible role in the betterment of disadvantaged people. HFS is working with holistic
+                                approach in the fields of child education, women & child health, women empowerment, youth
+                                upliftment, microfinance, Health, Handicraft Artisan Devlopment, Skill and vocanation
+                                training programme, De addction Center, natural resource management and urbanization &
+                                Rural Devlopment. We are very grateful to the community and the kind donors who believed
+                                on our credibility and supported us. Our organization is working with the motive of group
+                                dynamism and we sincerely care for the feelings of societal change through common participation.
+                                 HFS is presently working in the some districts of Rajasthan, i.e.  Bundi, Tonk, Kota, Shahpura,
+                                  Bhilwara, Ajmer, Beawar Our organization is also planning to expand its working area in near future.</p>
+                            {{-- <p>Lorem ipvsum dolor sit amext, consectetur adipisicing elit, smod tempor incididunt ut
+                                labore et dolore.</p> --}}
                         </div>
-                        <a href="about.html" class="btn">About US</a>
+                        <a href="{{ url('/about') }}" class="btn">About US</a>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <!-- about-img -->
                         <div class="about-img ">
-                            <div class="about-font-img d-none d-lg-block">
+                            {{-- <div class="about-font-img d-none d-lg-block">
 
 
                                 <img src="{{ asset('assets/frontend/img/gallery/b0595a0b-cc90-4ade-9232-6ed96f2742d5.png') }} " alt="Profile">
 
-                            </div>
+                            </div> --}}
                             <div class="about-back-img ">
 
-                                <img src="{{ asset('assets/frontend/img/gallery/11.jpg') }} " alt="Profile">
+                                <img src="{{ asset('assets/frontend/img/gallery/about-home.jpeg') }} " alt="Profile">
 
                             </div>
                         </div>
@@ -170,11 +180,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cases mb-40">
                             <div class="cases-img">
-                                <img src="{{ asset('assets/frontend/img/gallery/h1_hero.jpg') }} " alt="Profile">
+                                <img src="{{ asset('assets/frontend/img/gallery/Handicraft1.png') }} " alt="Profile">
 
                             </div>
                             <div class="cases-caption">
-                                <h3><a href="#">Ensure Education For Every Poor Children</a></h3>
+                                <h3><a href="#">Handicraft Artisan Development Programme</a></h3>
                                 <!-- Progress Bar -->
                                 <div class="single-skill mb-15">
                                     <div class="bar-progress">
@@ -182,7 +192,7 @@
                                             <div class="tipWrap">
                                                 <span class="tip"></span>
                                             </div>
-                                            <span class="fill" data-percentage="70"></span>
+                                            <span class="fill" data-percentage="95"></span>
                                         </div>
                                     </div>
                                 </div>
@@ -197,11 +207,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cases mb-40">
                             <div class="cases-img">
-                                <img src="{{ asset('assets/frontend/img/gallery/New Microsoft Office Word Document - Copy.jpg') }} " alt="Profile">
+                                <img src="{{ asset('assets/frontend/img/gallery/1623912538.12.jpeg') }} " alt="Profile">
 
                             </div>
                             <div class="cases-caption">
-                                <h3><a href="#">Providing Healthy Food For The Children</a></h3>
+                                <h3><a href="#">Women and Youth Empowerment</a></h3>
                                 <!-- Progress Bar -->
                                 <div class="single-skill mb-15">
                                     <div class="bar-progress">
@@ -209,7 +219,7 @@
                                             <div class="tipWrap">
                                                 <span class="tip"></span>
                                             </div>
-                                            <span class="fill" data-percentage="25"></span>
+                                            <span class="fill" data-percentage="50"></span>
                                         </div>
                                     </div>
                                 </div>
@@ -224,11 +234,11 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cases mb-40">
                             <div class="cases-img">
-                                <img src="{{ asset('assets/frontend/img/gallery/New Microsoft Office Word Document.jpg') }} " alt="Profile">
+                                <img src="{{ asset('assets/frontend/img/gallery/1623912537.13.jpeg') }} " alt="Profile">
 
                             </div>
                             <div class="cases-caption">
-                                <h3><a href="#">Supply Drinking Water For The People</a></h3>
+                                <h3><a href="#">Handicrafts Development</a></h3>
                                 <!-- Progress Bar -->
                                 <div class="single-skill mb-15">
                                     <div class="bar-progress">
@@ -236,7 +246,7 @@
                                             <div class="tipWrap">
                                                 <span class="tip"></span>
                                             </div>
-                                            <span class="fill" data-percentage="50"></span>
+                                            <span class="fill" data-percentage="75"></span>
                                         </div>
                                     </div>
                                 </div>
@@ -261,7 +271,7 @@
                         <!-- Section Tittle -->
                         <div class="section-tittle text-center mb-80">
                             <span>What we are boing</span>
-                            <h2>We arrange many social events for charity donations</h2>
+                            <h2>We arrange many social events for handicraft fedration society</h2>
                         </div>
                     </div>
                 </div>
@@ -278,12 +288,12 @@
                                 </div>
                                 <div class="job-tittle">
                                     <a href="#">
-                                        <h4>Donation is Hope</h4>
+                                        <h4>Child care & Protection, Child Right,<br> Education, Development is Hope</h4>
                                     </a>
                                     <ul>
-                                        <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
+                                        <li><i class="far fa-clock"></i>8:30am - 4:30pm</li>
                                         <li><i class="fas fa-sort-amount-down"></i>18.01.2021</li>
-                                        <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
+                                        <li><i class="fas fa-map-marker-alt"></i>Bundi (RAJ)</li>
                                     </ul>
                                 </div>
                             </div>
@@ -301,12 +311,12 @@
                                 </div>
                                 <div class="job-tittle">
                                     <a href="#">
-                                        <h4>A hand for Children</h4>
+                                        <h4>A hand for Women and Youth Empowerment</h4>
                                     </a>
                                     <ul>
-                                        <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
-                                        <li><i class="fas fa-sort-amount-down"></i>18.01.2021</li>
-                                        <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
+                                        <li><i class="far fa-clock"></i>8:30am - 4:30pm</li>
+                                        <li><i class="fas fa-sort-amount-down"></i>09.08.2022</li>
+                                        <li><i class="fas fa-map-marker-alt"></i>Bundi (RAJ)</li>
                                     </ul>
                                 </div>
                             </div>
@@ -324,12 +334,12 @@
                                 </div>
                                 <div class="job-tittle">
                                     <a href="#">
-                                        <h4>Help for Children</h4>
+                                        <h4>Help for Education</h4>
                                     </a>
                                     <ul>
-                                        <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
-                                        <li><i class="fas fa-sort-amount-down"></i>18.01.2021</li>
-                                        <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
+                                        <li><i class="far fa-clock"></i>8:30am - 4:30pm</li>
+                                        <li><i class="fas fa-sort-amount-down"></i>01.07.2023</li>
+                                        <li><i class="fas fa-map-marker-alt"></i>Bundi (RAJ)</li>
                                     </ul>
                                 </div>
                             </div>
@@ -365,8 +375,8 @@
                                 </ul>
                             </div>
                             <div class="team-caption">
-                                <h3><a href="instructor.html">Bruce Roberts</a></h3>
-                                <p>Volunteer leader</p>
+                                <h3><a href="{{ url('/') }}">Maya Suwalka</a></h3>
+                                <p>President</p>
                             </div>
                         </div>
                     </div>
@@ -383,8 +393,8 @@
                                 </ul>
                             </div>
                             <div class="team-caption">
-                                <h3><a href="instructor.html">Robart Rechard</a></h3>
-                                <p>Volunteer leader</p>
+                                <h3><a href="{{ url('/') }}">Rahul Kumar</a></h3>
+                                <p>Secretary</p>
                             </div>
                         </div>
                     </div>
@@ -401,8 +411,8 @@
                                 </ul>
                             </div>
                             <div class="team-caption">
-                                <h3><a href="instructor.html">Brendon Tailor</a></h3>
-                                <p>Volunteer leader</p>
+                                <h3><a href="{{ url('/') }}">Rajesh Kumar</a></h3>
+                                <p>Treasurer</p>
                             </div>
                         </div>
                     </div>
@@ -419,8 +429,8 @@
                                 </ul>
                             </div>
                             <div class="team-caption">
-                                <h3><a href="instructor.html">Walshr Hasgt</a></h3>
-                                <p>Volunteer leader</p>
+                                <h3><a href="{{ url('/') }}">Madhu Bala Salvi</a></h3>
+                                <p>Member</p>
                             </div>
                         </div>
                     </div>

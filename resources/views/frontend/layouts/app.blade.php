@@ -59,9 +59,9 @@
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="header-info-left d-flex">
                                     <ul>
-                                        <li><a href="index.php">Handicraft Federation</a></li>
-                                        <li>Phone: +99 (0) 101 0000 888</li>
-                                        <li>Email: noreply@yourdomain.com</li>
+                                        <li><a href="index.php">Handicraft Federation Society</a></li>
+                                        <li>Phone: +91 9571379419</li>
+                                        <li>Email: hfsbundi9252@gmail.com</li>
                                     </ul>
                                     <!-- <div class="header-social">
                                         <ul>
@@ -112,7 +112,7 @@
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img src="{{ asset('assets/frontend/img/logo/logo2.png') }} " alt="Profile">
+                                        <img src="{{ asset('assets/frontend/img/logo/logo3.jpg') }} " alt="Profile">
 
                                         {{-- <img src="assets/frontend/img/logo/logo.png" alt=""> --}}
                                     </a>
@@ -194,8 +194,8 @@
                                         <li>
                                             <p>Address :Your address goes here, your demo address.</p>
                                         </li>
-                                        <li><a href="#">Phone : +8880 44338899</a></li>
-                                        <li><a href="#">Email : info@colorlib.com</a></li>
+                                        <li><a href="#">Phone : +91 9571379419</a></li>
+                                        <li><a href="#">Email : hfsbundi9252@gmail.com</a></li>
                                     </ul>
                                 </div>
 

@@ -14,7 +14,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap hero-cap2 pt-20 text-center">
-                            <h2>About US</h2>
+                            <h2>About US (HFS)</h2>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                             <span class="flaticon-null-1"></span>
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Clean Water</a></h5>
+                            <h5><a href="{{ url('/about') }}">Clean Water</a></h5>
                             <p>The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to.</p>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                             <span class="flaticon-think"></span>
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Clean Water</a></h5>
+                            <h5><a href="{{ url('/about') }}">Clean Water</a></h5>
                             <p>The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to.</p>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                             <span class="flaticon-gear"></span>
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Clean Water</a></h5>
+                            <h5><a href="{{ url('/about') }}">Clean Water</a></h5>
                             <p>The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to.</p>
                         </div>
                     </div>
@@ -81,21 +81,36 @@
                         <!-- Section Tittle -->
                         <div class="section-tittle mb-35">
                             <span>About our foundetion</span>
-                            <h2>We Are In A Mission To  Help Helpless</h2>
+                            <h2>About Handicraft Fedration Society (HFS) Bundi</h2>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p>
-                        <p>Lorem ipvsum dolor sit amext, consectetur adipisicing elit, smod tempor incididunt ut labore et dolore.</p>
+                        <p>Handicraft Fedration Society (HFS) is non-profit voluntary organization
+                             working for the Social development - rehabilitation - protection and
+                             empowerment of women, children and deprive class of society.  child education,
+                              women & child health, women empowerment, youth upliftment, microfinance, Health,
+                               Handicraft Artisan Devlopment, Skill and vocanation training programme, de addction
+                               center, natural resource management and urbanization & Rural DevlopmentThe organization
+                               founded in the year 2012 by a group of devoted and committed social activists to promote
+                                change in society.Itis a non-political voluntary organization registered under the
+                                 Societies Registration Act, 1958. Its registration no. is 31/Bundi/2012-13.</p>
+                        <p>HFS is working on Development Issues by covering Millennium Development Goals (MDGs)
+                            through its Some district branch-offices of Rajasthan State i.e.  Bundi, Tonk, Kota,
+                            Shahpura, Bhilwara, Ajmer, Beawar .It’s headquarter is situated at Bundi, district Bundi,
+                             Rajasthan & Branch Office Mamta Circle, Mal Mohalla, Deoli Distt. Tonk Raj.Time to time
+                             HFS Organazation is organizing Handicraft Artisan Devlopment, vocational training workshops
+                              for the women's group members for there economically empowerment and to make them independent
+                               and provide income generation opportunities through several trainings to targeted children
+                               and their mothers.</p>
                     </div>
-                    <a href="about.html" class="btn">About US</a>
+                    <a href="{{ url('/about') }}" class="btn">About US</a>
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <!-- about-img -->
                     <div class="about-img ">
-                        <div class="about-font-img d-none d-lg-block">
+                        {{-- <div class="about-font-img d-none d-lg-block">
                             <img src="{{ asset('assets/frontend/img/gallery/about4.png') }} "alt="Profile">
-                        </div>
+                        </div> --}}
                         <div class="about-back-img ">
-                            <img src="{{ asset('assets/frontend/img/gallery/about3.jpg') }} " alt="Profile">
+                            <img src="{{ asset('assets/frontend/img/gallery/aboyt-page.jpg') }} " alt="Profile">
 
                         </div>
                     </div>
