@@ -556,7 +556,7 @@
                                 </div>
                                 <div class="blog-cap">
                                     <p>Creative derector</p>
-                                    <h3><a href="blog_details.html">Footprints in Time is perfect House in Kurashiki</a>
+                                    <h3><a href="{{ url('/') }}">Footprints in Time is perfect House in Kurashiki</a>
                                     </h3>
                                 </div>
                             </div>
@@ -576,7 +576,7 @@
                                 </div>
                                 <div class="blog-cap">
                                     <p>Creative derector</p>
-                                    <h3><a href="blog_details.html">Footprints in Time is perfect House in Kurashiki</a>
+                                    <h3><a href="{{ url('/') }}">Footprints in Time is perfect House in Kurashiki</a>
                                     </h3>
                                 </div>
                             </div>
