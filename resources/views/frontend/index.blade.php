@@ -419,7 +419,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-team mb-30">
                             <div class="team-img">
-                                <img src="{{ asset('public/assets/frontend/img/gallery/about3.jpeg') }} " alt="Profile">
+                                <img src="{{ asset('public/assets/frontend/img/gallery/121.jpg') }} " alt="Profile">
 
                                 <!-- Blog Social -->
                                 <ul class="team-social">

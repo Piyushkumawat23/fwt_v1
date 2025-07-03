@@ -41,7 +41,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="{{ asset('public/assets/frontend/img/logo/loder1.png') }} " alt="Profile">
+                    <img src="{{ asset('public/assets/frontend/img/logo/loder2.jpg') }} " alt="Profile">
 
                 </div>
             </div>
