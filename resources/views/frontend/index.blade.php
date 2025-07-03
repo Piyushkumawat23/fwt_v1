@@ -421,7 +421,7 @@
                             <div class="team-img">
                                 <img src="{{ asset('public/assets/frontend/img/gallery/121.jpg') }} " alt="Profile">
 
-                                <!-- Blog Social -->
+                                <!--    Blog Social -->
                                 <ul class="team-social">
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
