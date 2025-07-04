@@ -101,7 +101,7 @@
                                and provide income generation opportunities through several trainings to targeted children
                                and their mothers.</p>
                     </div>
-                    <a href="{{ url('/about') }}" class="btn">About US</a>
+                    {{-- <a href="{{ url('/about') }}" class="btn">About US</a> --}}
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <!-- about-img -->
