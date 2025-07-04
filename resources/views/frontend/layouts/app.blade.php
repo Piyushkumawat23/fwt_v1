@@ -206,7 +206,7 @@
                                     <h4>Contact Info</h4>
                                     <ul>
                                         <li>
-                                            <p>Branch Office/Postal Address – Handicraft Fedration Society, Mamta Circle, Mal Mohalla, Deoli Distt. Tonk Raj.</p>
+                                            <p>Branch Office/Postal Address – Handicraft Fedration Society, Mamta Circle, Deoli Distt. Tonk Raj.</p>
                                         </li>
                                         <li><a href="#">Phone : +91 9571379419</a></li>
                                         <li><a href="#">Email : hfsbundi9252@gmail.com</a></li>

@@ -63,7 +63,7 @@
         </div>
         <!-- slider Area End-->
         <!--? Services Area Start -->
-        <div class="service-area section-padding30">
+        <div class="service-area section-padding40">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
@@ -116,7 +116,7 @@
         </div>
         <!-- Services Area End -->
         <!--? About Law Start-->
-        <section class="about-low-area section-padding2">
+        <section class="about-low-area section-padding4">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-10">
@@ -350,7 +350,7 @@
         </section>
         <!-- Featured_job_end -->
         <!--? Team Ara Start -->
-        <div class="team-area pt-100 pb-100">
+        <div class="team-area pt-50 pb-50">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
