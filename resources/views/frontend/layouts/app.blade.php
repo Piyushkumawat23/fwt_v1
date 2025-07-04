@@ -190,7 +190,7 @@
                                 <div class="single-footer-caption mb-30">
                                     <div class="footer-tittle">
                                         <div class="footer-logo mb-20">
-                                            <a href="index.html">
+                                            <a href="{{ url('/') }}">
                                                 <img src="{{ asset('public/assets/frontend/img/logo/logo3_footer.png') }} "
                                                     alt="Profile">
 
