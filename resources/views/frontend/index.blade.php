@@ -21,7 +21,7 @@
                                     <h1 data-animation="fadeInUp" data-delay=".6s">A Steadfast Stroke to Fulfill Social Dreams</h1>
                                     <P data-animation="fadeInUp" data-delay=".8s">Branch Office/Postal Address – Handicraft Fedration Society, Mamta Circle, Mal Mohalla, Deoli Distt. Tonk Raj.</P>
                                     <!-- Hero-btn -->
-                                    <div class="hero__btn">
+                                    {{-- <div class="hero__btn">
                                         <a href="{{ url('/contact') }}" class="btn hero-btn mb-10" data-animation="fadeInLeft"
                                             data-delay=".8s">Donate</a>
                                         <a href="{{ url('/contact') }}" class="cal-btn ml-15" data-animation="fadeInRight"
@@ -29,7 +29,7 @@
                                             <i class="flaticon-null"></i>
                                             <p>+91 9571379419</p>
                                         </a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -350,7 +350,7 @@
         </section>
         <!-- Featured_job_end -->
         <!--? Team Ara Start -->
-        <div class="team-area pt-160 pb-160">
+        <div class="team-area pt-100 pb-100">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
@@ -458,7 +458,7 @@
         </section>
         <!-- Want To work End -->
         <!--? Testimonial Start -->
-        <div class="testimonial-area testimonial-padding">
+        {{-- <div class="testimonial-area testimonial-padding">
             <div class="container">
                 <!-- Testimonial contents -->
                 <div class="row d-flex justify-content-center">
@@ -527,7 +527,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- Testimonial End -->
         <!--? Blog Area Start -->
         <section class="home-blog-area section-padding30">

@@ -430,6 +430,21 @@ hr {
   margin-bottom: 90px;
 }
 
+.logo-text a {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+    white-space: nowrap;
+    color: #000; /* Change this as per your theme */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.logo-text a:hover {
+    color: #c59d5f; /* Optional: Hover color */
+}
+
+
 @media (max-width: 767px) {
   /* line 182, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/public/assets/scss/_common.scss */
   .mb-90 {
@@ -2583,8 +2598,8 @@ hr {
 /*-- Section Padding -- */
 /* line 719, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/public/assets/scss/_common.scss */
 .section-padding2 {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .section-padding-project {
   padding-top: 100px;
@@ -2594,8 +2609,8 @@ hr {
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   /* line 719, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/public/assets/scss/_common.scss */
   .section-padding2 {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   .section-padding-project {
   padding-top: 100px;
@@ -2784,8 +2799,8 @@ hr {
 
 /* line 810, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/public/assets/scss/_common.scss */
 .section-padding30 {
-  padding-top: 195px;
-  padding-bottom: 180px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3549,7 +3564,7 @@ hr {
 
 /* line 32, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/public/assets/scss/_h1-hero.scss */
 .slider-area {
-  background-image: url(../img/hero/Presentation4.jpg);
+  background-image: url(../img/hero/Presentation6.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4466,7 +4481,7 @@ hr {
 /* line 1, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/public/assets/scss/_wantTowork.scss */
 .wantToWork-area {
   background: #f8fcff;
-  padding-bottom: 150px;
+  padding-bottom: 0px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

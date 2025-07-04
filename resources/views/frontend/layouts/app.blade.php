@@ -58,7 +58,6 @@
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="header-info-left d-flex">
                                     <ul>
-                                        <li><a href="index.php">Handicraft Federation Society</a></li>
                                         <li>Phone: +91 9571379419</li>
                                         <li>Email: hfsbundi9252@gmail.com</li>
                                     </ul>
@@ -108,16 +107,30 @@
                     <div class="container-fluid">
                         <div class="row align-items-center">
                             <!-- Logo -->
-                            <div class="col-xl-2 col-lg-2">
+                            {{-- <div class="col-xl-1 col-lg-2"> --}}
+                                <div class="col-xl-1 col-lg-2 col-md-3 col-sm-3 col-4">
                                 <div class="logo">
-                                    <a href="index.html">
-                                        <img src="{{ asset('public/assets/frontend/img/logo/logo4.jpg') }} " alt="Profile">
+                                    <a href="{{ url('/') }}">
+                                        <img src="{{ asset('public/assets/frontend/img/logo/logo6.png') }} " alt="Profile">
 
                                         {{-- <img src="public/assets/frontend/img/logo/logo.png" alt=""> --}}
+                                        {{-- <li><a href="index.php">Handicraft Federation Society</a></li> --}}
                                     </a>
                                 </div>
+                                {{-- <div>
+                                    <lu>
+                                    </lu>
+                                </div> --}}
                             </div>
-                            <div class="col-xl-10 col-lg-10">
+                            {{-- <div class="col-xl-2 col-lg-2"> --}}
+                                 <div class="col-xl-4 col-lg-4 col-md-5 col-sm-5 col-8">
+                                <div class="logo-text">
+                                    <a href="{{ url('/') }}">Handicraft Federation Society</a>
+                                </div>
+
+                            </div>
+                            {{-- <div class="col-xl-10 col-lg-8"> --}}
+                                 <div class="col-xl-7 col-lg-6 col-md-12">
                                 <div class="menu-wrapper  d-flex align-items-center justify-content-end">
                                     <!-- Main-menu -->
                                     <div class="main-menu d-none d-lg-block">
@@ -142,9 +155,9 @@
                                         </nav>
                                     </div>
                                     <!-- Header-btn -->
-                                    <div class="header-right-btn d-none d-lg-block ml-20">
+                                    {{-- <div class="header-right-btn d-none d-lg-block ml-20">
                                         <a href="{{ url('/contact') }}" class="btn header-btn">Donate</a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                             <!-- Mobile Menu -->
@@ -178,7 +191,7 @@
                                     <div class="footer-tittle">
                                         <div class="footer-logo mb-20">
                                             <a href="index.html">
-                                                <img src="{{ asset('public/assets/frontend/img/logo/logo2_footer.jpg') }} "
+                                                <img src="{{ asset('public/assets/frontend/img/logo/logo3_footer.png') }} "
                                                     alt="Profile">
 
                                             </a>
