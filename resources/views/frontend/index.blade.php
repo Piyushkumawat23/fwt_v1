@@ -160,7 +160,7 @@
                             </div> --}}
                             <div class="about-back-img ">
 
-                                <img src="{{ asset('public/assets/frontend/img/gallery/about-home.jpeg') }} " alt="Profile">
+                                <img src="{{ asset('public/assets/frontend/img/gallery/about-home.jpg') }} " alt="Profile">
 
                             </div>
                         </div>
@@ -561,7 +561,7 @@
                                 </div>
                                 <div class="blog-cap">
                                     <p>Creative derector</p>
-                                    <h3><a href="{{ url('/') }}">Footprints in Time is perfect House in Kurashiki</a>
+                                    <h3><a href="{{ url('/') }}">Handicraft Federation Society Is The Guardian of Traditional Crafts</a>
                                     </h3>
                                 </div>
                             </div>
@@ -581,7 +581,7 @@
                                 </div>
                                 <div class="blog-cap">
                                     <p>Creative derector</p>
-                                    <h3><a href="{{ url('/') }}">Footprints in Time is perfect House in Kurashiki</a>
+                                    <h3><a href="{{ url('/') }}">Handicraft Federation Society Is The Guardian of Traditional Crafts</a>
                                     </h3>
                                 </div>
                             </div>
