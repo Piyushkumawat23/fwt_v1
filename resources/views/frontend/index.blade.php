@@ -193,7 +193,7 @@
                             <div class="cases-caption">
                                 <h3><a href="#">Handicraft Artisan Development Programme</a></h3>
                                 <!-- Progress Bar -->
-                                <div class="single-skill mb-15">
+                                {{-- <div class="single-skill mb-15">
                                     <div class="bar-progress">
                                         <div id="bar1" class="barfiller">
                                             <div class="tipWrap">
@@ -207,7 +207,7 @@
                                 <div class="prices d-flex justify-content-between">
                                     <p>Raised:<span> $20,000</span></p>
                                     <p>Goal:<span> $35,000</span></p>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -220,7 +220,7 @@
                             <div class="cases-caption">
                                 <h3><a href="#">Women and Youth Empowerment</a></h3>
                                 <!-- Progress Bar -->
-                                <div class="single-skill mb-15">
+                                {{-- <div class="single-skill mb-15">
                                     <div class="bar-progress">
                                         <div id="bar2" class="barfiller">
                                             <div class="tipWrap">
@@ -234,7 +234,7 @@
                                 <div class="prices d-flex justify-content-between">
                                     <p>Raised:<span> $20,000</span></p>
                                     <p>Goal:<span> $35,000</span></p>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
@@ -247,7 +247,7 @@
                             <div class="cases-caption">
                                 <h3><a href="#">Handicrafts Development</a></h3>
                                 <!-- Progress Bar -->
-                                <div class="single-skill mb-15">
+                                {{-- <div class="single-skill mb-15">
                                     <div class="bar-progress">
                                         <div id="bar3" class="barfiller">
                                             <div class="tipWrap">
@@ -261,7 +261,7 @@
                                 <div class="prices d-flex justify-content-between">
                                     <p>Raised:<span> $20,000</span></p>
                                     <p>Goal:<span> $35,000</span></p>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
