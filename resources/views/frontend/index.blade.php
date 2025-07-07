@@ -10,7 +10,7 @@
     <!-- header end -->
     <main>
         <!-- slider Area Start-->
-        <div class="slider-area">
+        {{-- <div class="slider-area">
             <div class="slider-active">
                 <!-- Single Slider -->
                 <div class="single-slider slider-height d-flex align-items-center">
@@ -21,7 +21,7 @@
                                     <h1 data-animation="fadeInUp" data-delay=".6s">A Steadfast Stroke to Fulfill Social Dreams</h1>
                                     <P data-animation="fadeInUp" data-delay=".8s">Branch Office/Postal Address – Handicraft Fedration Society, Mamta Circle, Mal Mohalla, Deoli Distt. Tonk Raj.</P>
                                     <!-- Hero-btn -->
-                                    {{-- <div class="hero__btn">
+                                    <div class="hero__btn">
                                         <a href="{{ url('/contact') }}" class="btn hero-btn mb-10" data-animation="fadeInLeft"
                                             data-delay=".8s">Donate</a>
                                         <a href="{{ url('/contact') }}" class="cal-btn ml-15" data-animation="fadeInRight"
@@ -29,14 +29,14 @@
                                             <i class="flaticon-null"></i>
                                             <p>+91 9571379419</p>
                                         </a>
-                                    </div> --}}
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Single Slider -->
-                {{-- <div class="single-slider slider-height d-flex align-items-center">
+                <div class="single-slider slider-height d-flex align-items-center">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
@@ -58,10 +58,58 @@
                             </div>
                         </div>
                     </div>
-                </div> --}}
+                </div>
             </div>
-        </div>
+        </div> --}}
         <!-- slider Area End-->
+
+        <section class="about-low-area section-padding4">
+            <div class="container">
+                    <h1 class="home-top-heading-h1" data-animation="fadeInUp" data-delay=".6s">A Steadfast Stroke to <br>Fulfill Social Dreams</h1>
+                <div class="row">
+                    <div class="col-lg-6 col-md-10">
+                        <div class="about-caption mb-50">
+                            <!-- Section Tittle -->
+                            {{-- <div class="section-tittle mb-35">
+                                <span>About our foundetion</span>
+                                <h2>Foreword</h2>
+                            </div> --}}
+                            <p>Handicraft Fedration Society (HFS)
+                                is a nonprofit organization serving the community since 2012.  We are resolute to play
+                                a perceptible role in the betterment of disadvantaged people. HFS is working with holistic
+                                approach in the fields of child education, women & child health, women empowerment, youth
+                                upliftment, microfinance, Health, Handicraft Artisan Devlopment, Skill and vocanation
+                                training programme, De addction Center, natural resource management and urbanization &
+                                Rural Devlopment. We are very grateful to the community and the kind donors who believed
+                                on our credibility and supported us. Our organization is working with the motive of group
+                                dynamism and we sincerely care for the feelings of societal change through common participation.
+                                 HFS is presently working in the some districts of Rajasthan, i.e.  Bundi, Tonk, Kota, Shahpura,
+                                  Bhilwara, Ajmer, Beawar Our organization is also planning to expand its working area in near future.</p>
+                            {{-- <p>Lorem ipvsum dolor sit amext, consectetur adipisicing elit, smod tempor incididunt ut
+                                labore et dolore.</p> --}}
+                        </div>
+                        <a href="{{ url('/about') }}" class="btn">About US</a>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <!-- about-img -->
+                        <div class="about-img ">
+                            {{-- <div class="about-font-img d-none d-lg-block">
+
+
+                                <img src="{{ asset('public/assets/frontend/img/gallery/b0595a0b-cc90-4ade-9232-6ed96f2742d5.png') }} " alt="Profile">
+
+                            </div> --}}
+                            <div class="about-back-img ">
+
+                                <img src="{{ asset('public/assets/frontend/img/gallery/about-home.jpg') }} " alt="Profile">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!--? Services Area Start -->
         <div class="service-area section-padding40">
             <div class="container">
@@ -121,53 +169,7 @@
         </div>
         <!-- Services Area End -->
         <!--? About Law Start-->
-        <section class="about-low-area section-padding4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-10">
-                        <div class="about-caption mb-50">
-                            <!-- Section Tittle -->
-                            <div class="section-tittle mb-35">
-                                {{-- <span>About our foundetion</span> --}}
-                                <h2>Foreword</h2>
-                            </div>
-                            <p>Hello Friends!!!!
-                                We are happy to present the Annual Progress Report of Handicraft Fedration Society (HFS)
-                                for the year 2022- 2023, 2023-24, 2024-25 which has been an extremely gratifying year.
-                                HFS is a nonprofit organization serving the community since 2012.  We are resolute to play
-                                a perceptible role in the betterment of disadvantaged people. HFS is working with holistic
-                                approach in the fields of child education, women & child health, women empowerment, youth
-                                upliftment, microfinance, Health, Handicraft Artisan Devlopment, Skill and vocanation
-                                training programme, De addction Center, natural resource management and urbanization &
-                                Rural Devlopment. We are very grateful to the community and the kind donors who believed
-                                on our credibility and supported us. Our organization is working with the motive of group
-                                dynamism and we sincerely care for the feelings of societal change through common participation.
-                                 HFS is presently working in the some districts of Rajasthan, i.e.  Bundi, Tonk, Kota, Shahpura,
-                                  Bhilwara, Ajmer, Beawar Our organization is also planning to expand its working area in near future.</p>
-                            {{-- <p>Lorem ipvsum dolor sit amext, consectetur adipisicing elit, smod tempor incididunt ut
-                                labore et dolore.</p> --}}
-                        </div>
-                        <a href="{{ url('/about') }}" class="btn">About US</a>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                        <!-- about-img -->
-                        <div class="about-img ">
-                            {{-- <div class="about-font-img d-none d-lg-block">
 
-
-                                <img src="{{ asset('public/assets/frontend/img/gallery/b0595a0b-cc90-4ade-9232-6ed96f2742d5.png') }} " alt="Profile">
-
-                            </div> --}}
-                            <div class="about-back-img ">
-
-                                <img src="{{ asset('public/assets/frontend/img/gallery/about-home.jpg') }} " alt="Profile">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <!-- About Law End-->
         <!-- Our Cases Start -->
         <div class="our-cases-area section-padding30">

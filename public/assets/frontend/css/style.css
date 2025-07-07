@@ -471,7 +471,20 @@ hr {
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
-
+.home-top-heading-h1 {
+    font-family: "Muli", sans-serif;
+    color: #4B2E2E;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: normal;
+    text-align: center;
+    font-size: 59px;
+    padding: 50px 50px 80px 50px;
+}
+.about-low-area .about-img .about-back-img img {
+    height: 550px
+}
     /* Optional: For smaller screens */
     /* @media (max-width: 576px) {
         .core-programme-list li {
@@ -2637,7 +2650,7 @@ hr {
   padding-bottom: 100px;
 }
 .section-padding4 {
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 50px;
 }
 .section-padding-project {
@@ -2660,7 +2673,7 @@ hr {
     padding-bottom: 100px;
   }
   .section-padding4 {
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 50px;
 }
   .section-padding-project {
@@ -2870,7 +2883,7 @@ hr {
 
 /* line 810, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/public/assets/scss/_common.scss */
 .section-padding40 {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 
@@ -3810,11 +3823,11 @@ hr {
 
 /* line 5, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/public/assets/scss/_about.scss */
 .about-low-area .about-caption p {
-  font-size: 16px;
+  font-size: 20px;
   color: #3B1E1E;
   line-height: 1.6;
   margin-bottom: 43px;
-  padding-right: 50px;
+  padding-right: 20px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
