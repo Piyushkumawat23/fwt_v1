@@ -58,8 +58,8 @@
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="header-info-left d-flex">
                                     <ul>
-                                        <li>Phone: +91 9571379419</li>
-                                        <li>Email: hfsbundi9252@gmail.com</li>
+                                        <li class="contect-informectrion"><a href="tel:+91 9571379419">Phone: +91 9571379419</a></li>
+                                        <li class="contect-informectrion"><a href="mailto:someone@example.com">hfsbundi9252@gmail.com</a></li>
                                     </ul>
                                     <!-- <div class="header-social">
                                         <ul>
@@ -208,8 +208,8 @@
                                         <li>
                                             <p>Branch Office/Postal Address – Handicraft Fedration Society, Mamta Circle, Deoli Distt. Tonk Raj.</p>
                                         </li>
-                                        <li><a href="#">Phone : +91 9571379419</a></li>
-                                        <li><a href="#">Email : hfsbundi9252@gmail.com</a></li>
+                                        <li><a href="tel:+91 9571379419">Phone: +91 9571379419</a></li>
+                                        <li><a href="mailto:someone@example.com">hfsbundi9252@gmail.com</a></li>
                                     </ul>
                                 </div>
 

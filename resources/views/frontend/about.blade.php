@@ -23,54 +23,62 @@
     </div>
     <!-- Hero End -->
     <!--? Services Area Start -->
-    <div class="service-area section-padding30">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
-                    <!-- Section Tittle -->
-                    <div class="section-tittle text-center mb-80">
-                        <span>What we are doing</span>
-                        <h2>We Are In A Mission To Help The Helpless</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cat text-center mb-50">
-                        <div class="cat-icon">
-                            <span class="flaticon-null-1"></span>
-                        </div>
-                        <div class="cat-cap">
-                            <h5><a href="{{ url('/about') }}">Clean Water</a></h5>
-                            <p>The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to.</p>
+        <div class="service-area section-padding40">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
+                        <!-- Section Tittle -->
+                        <div class="section-tittle text-center mb-80">
+                            <span>What we are doing</span>
+                            <h2>We Are In A Mission To Help The Helpless</h2>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cat active text-center mb-50">
-                        <div class="cat-icon">
-                            <span class="flaticon-think"></span>
-                        </div>
-                        <div class="cat-cap">
-                            <h5><a href="{{ url('/about') }}">Clean Water</a></h5>
-                            <p>The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to.</p>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat text-center mb-50">
+                            <div class="cat-icon">
+                                <img src="{{ asset('public/assets/frontend/img/15268838.png') }}" alt="Women Empowerment Icon" width="60">
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a href="{{ url('/') }}">Women and Youth Empowerment</a></h5>
+                                <p>the process of equipping these groups with the resources, opportunities,
+                                   and agency to make their own decisions and control their own lives. This
+                                  involves promoting their social, economic, political, and personal development, ultimately</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cat text-center mb-50">
-                        <div class="cat-icon">
-                            <span class="flaticon-gear"></span>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat active text-center mb-50">
+                            <div class="cat-icon">
+                                <img src="{{ asset('public/assets/frontend/img/5632179.png') }}" alt="Women Empowerment Icon" width="60">
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a href="{{ url('/') }}">Handicrafts Development</a></h5>
+                                <p>the efforts aimed at promoting and supporting the handicraft
+                                    industry, which involves the creation of unique, handcrafted
+                                    items using traditional skills and techniques. This includes
+                                    initiatives empowerment, skill development, market access, andb
+                                    infrastructure improvements, etc.</p>
+                            </div>
                         </div>
-                        <div class="cat-cap">
-                            <h5><a href="{{ url('/about') }}">Clean Water</a></h5>
-                            <p>The sea freight service has grown conside rably in recent years. We spend timetting to know your processes to.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat text-center mb-50">
+                            <div class="cat-icon">
+                                <img src="{{ asset('public/assets/frontend/img/water-management-icon.png') }}" alt="Women Empowerment Icon" width="60">
+                            </div>
+                            <div class="cat-cap">
+                                <h5><a href="{{ url('/') }}">Water Resource Management</a></h5>
+                                <p>the process of planning, developing, and managing water resources,
+                                     encompassing both water quantity and quality, across all water uses.
+                                      including human consumption, agriculture, industry, and the environment etc. </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     <!-- Services Area End -->
     <!--? About Law Start-->
     <section class="about-low-area section-padding2">
@@ -138,7 +146,7 @@
     </section>
     <!-- Want To work End -->
     <!--? Testimonial Start -->
-    <div class="testimonial-area testimonial-padding">
+    {{-- <div class="testimonial-area testimonial-padding">
         <div class="container">
             <!-- Testimonial contents -->
             <div class="row d-flex justify-content-center">
@@ -199,7 +207,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- Testimonial End -->
 
     <!--? Count Down Start -->

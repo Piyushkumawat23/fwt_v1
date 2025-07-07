@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <!-- Single Slider -->
-                <div class="single-slider slider-height d-flex align-items-center">
+                {{-- <div class="single-slider slider-height d-flex align-items-center">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
@@ -58,7 +58,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
         <!-- slider Area End-->
@@ -78,36 +78,41 @@
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cat text-center mb-50">
                             <div class="cat-icon">
-                                <span class="flaticon-null-1"></span>
+                                <img src="{{ asset('public/assets/frontend/img/15268838.png') }}" alt="Women Empowerment Icon" width="60">
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="{{ url('/') }}">Clean Water</a></h5>
-                                <p>The sea freight service has grown conside rably in recent years. We spend timetting
-                                    to know your processes to.</p>
+                                <h5><a href="{{ url('/') }}">Women and Youth Empowerment</a></h5>
+                                <p>the process of equipping these groups with the resources, opportunities,
+                                   and agency to make their own decisions and control their own lives. This
+                                  involves promoting their social, economic, political, and personal development, ultimately</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cat active text-center mb-50">
                             <div class="cat-icon">
-                                <span class="flaticon-think"></span>
+                                <img src="{{ asset('public/assets/frontend/img/5632179.png') }}" alt="Women Empowerment Icon" width="60">
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="{{ url('/') }}">Clean Water</a></h5>
-                                <p>The sea freight service has grown conside rably in recent years. We spend timetting
-                                    to know your processes to.</p>
+                                <h5><a href="{{ url('/') }}">Handicrafts Development</a></h5>
+                                <p>the efforts aimed at promoting and supporting the handicraft
+                                    industry, which involves the creation of unique, handcrafted
+                                    items using traditional skills and techniques. This includes
+                                    initiatives empowerment, skill development, market access, andb
+                                    infrastructure improvements, etc.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-cat text-center mb-50">
                             <div class="cat-icon">
-                                <span class="flaticon-gear"></span>
+                                <img src="{{ asset('public/assets/frontend/img/water-management-icon.png') }}" alt="Women Empowerment Icon" width="60">
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="{{ url('/') }}">Clean Water</a></h5>
-                                <p>The sea freight service has grown conside rably in recent years. We spend timetting
-                                    to know your processes to.</p>
+                                <h5><a href="{{ url('/') }}">Water Resource Management</a></h5>
+                                <p>the process of planning, developing, and managing water resources,
+                                     encompassing both water quantity and quality, across all water uses.
+                                      including human consumption, agriculture, industry, and the environment etc. </p>
                             </div>
                         </div>
                     </div>

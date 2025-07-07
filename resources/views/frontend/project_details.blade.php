@@ -19,53 +19,54 @@
     <!-- Hero End -->
     <!--? Services Area Start -->
     <div class="service-area section-padding30">
-    <div class="container">
-        <!-- Table Section Starts -->
-        <div class="row justify-content-center mt-5">
-            <div class="col-lg-10">
-                <div class="table-responsive">
-                    <table class="table table-bordered text-center">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th>S.No.</th>
-                                <th>Name of Center</th>
-                                <th>Year</th>
-                                <th>Total Patient</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>I.</td>
-                                <td>HFS Dedication Center, Jahazpur (Shahpura)</td>
-                                <td>2022-23</td>
-                                <td>40</td>
-                            </tr>
-                            <tr>
-                                <td>II.</td>
-                                <td>HFS Dedication Center, Jahazpur (Shahpura)</td>
-                                <td>2023-24</td>
-                                <td>55</td>
-                            </tr>
-                            <tr>
-                                <td>III.</td>
-                                <td>HFS Dedication Center, Jahazpur (Shahpura)</td>
-                                <td>2024-25</td>
-                                <td>80</td>
-                            </tr>
-                            <tr>
-                                <td>IV.</td>
-                                <td>HFS Dedication Center, Ajmer (Raj.)</td>
-                                <td>2025-26</td>
-                                <td>Running</td>
-                            </tr>
-                            <tr>
-                                <td>V.</td>
-                                <td>HFS Dedication Center, Beawar (Raj.)</td>
-                                <td>2025-26</td>
-                                <td>Running</td>
-                            </tr>
-                        </tbody>
-                    </table>
+        <div class="container">
+            <!-- Table Section Starts -->
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-10">
+                    <div class="table-responsive">
+                        <table class="table table-bordered text-center">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>S.No.</th>
+                                    <th>Name of Center</th>
+                                    <th>Year</th>
+                                    <th>Total Patient</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>I.</td>
+                                    <td>HFS Dedication Center, Jahazpur (Shahpura)</td>
+                                    <td>2022-23</td>
+                                    <td>40</td>
+                                </tr>
+                                <tr>
+                                    <td>II.</td>
+                                    <td>HFS Dedication Center, Jahazpur (Shahpura)</td>
+                                    <td>2023-24</td>
+                                    <td>55</td>
+                                </tr>
+                                <tr>
+                                    <td>III.</td>
+                                    <td>HFS Dedication Center, Jahazpur (Shahpura)</td>
+                                    <td>2024-25</td>
+                                    <td>80</td>
+                                </tr>
+                                <tr>
+                                    <td>IV.</td>
+                                    <td>HFS Dedication Center, Ajmer (Raj.)</td>
+                                    <td>2025-26</td>
+                                    <td>Running</td>
+                                </tr>
+                                <tr>
+                                    <td>V.</td>
+                                    <td>HFS Dedication Center, Beawar (Raj.)</td>
+                                    <td>2025-26</td>
+                                    <td>Running</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>

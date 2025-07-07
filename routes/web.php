@@ -24,3 +24,6 @@ Route::get('/project', function () {
 Route::get('/project_details', function () {
     return view('frontend.project_details');
     });
+Route::get('/health', function () {
+    return view('frontend.health');
+    });
