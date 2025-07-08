@@ -166,7 +166,7 @@
                     </div>
                     <div class="bottom-content mt-2">
                         <a href="">
-                            <h3 class="heading" style="padding: 20px 0px;">Health</h3>
+                            <h3 class="heading" style="padding: 20px 0px;">Education</h3>
                         </a>
                     </div>
                 </article>
