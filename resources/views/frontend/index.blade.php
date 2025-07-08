@@ -70,10 +70,10 @@
                     <div class="col-lg-6 col-md-10">
                         <div class="about-caption mb-50">
                             <!-- Section Tittle -->
-                            {{-- <div class="section-tittle mb-35">
-                                <span>About our foundetion</span>
-                                <h2>Foreword</h2>
-                            </div> --}}
+                            <div class="section-tittle-1 mb-35">
+                                <span>Maya Suwalka</span>
+                                <h3>Prisident</h3>
+                            </div>
                             <p>Handicraft Fedration Society (HFS)
                                 is a nonprofit organization serving the community since 2012.  We are resolute to play
                                 a perceptible role in the betterment of disadvantaged people. HFS is working with holistic
@@ -87,6 +87,10 @@
                                   Bhilwara, Ajmer, Beawar Our organization is also planning to expand its working area in near future.</p>
                             {{-- <p>Lorem ipvsum dolor sit amext, consectetur adipisicing elit, smod tempor incididunt ut
                                 labore et dolore.</p> --}}
+                            {{-- <div class="section-tittle-1 mb-35">
+                                <span>Maya Suwalka</span>
+                                <h3>Prisident</h3>
+                            </div> --}}
                         </div>
                         <a href="{{ url('/about') }}" class="btn">About US</a>
                     </div>
