@@ -504,6 +504,13 @@ hr {
     display: inline-block;
     letter-spacing: 0.05em;
 }
+.core-programme-list li a {
+    color: #000;
+    outline: medium none;
+}
+.core-programme-list li a:hover {
+    color: #c59d5f;
+}
 
 /* .container {
   display: flex;

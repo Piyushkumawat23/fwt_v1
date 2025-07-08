@@ -120,19 +120,19 @@
                             <h2>Core Programme</h2>
                         </div>
                         <ul class="core-programme-list">
-                            <li>1. Child care & Protection, Child Right, Education, Development</li>
-                            <li>2. Health</li>
-                            <li>3. Women and Youth Empowerment</li>
-                            <li>4. Handicrafts Development</li>
-                            <li>5. Education</li>
-                            <li>6. Water Resource Management</li>
-                            <li>7. Prevention of begging</li>
-                            <li>8. Child Labor & Child Marriage</li>
-                            <li>9. De-addiction</li>
-                            <li>10. Disabled Person Development Programme</li>
-                            <li>11. Skill & Vocational Training</li>
-                            <li>12. Senior Citizens Care & Protection, Development</li>
-                            <li>13. Awareness Camp & Medical Camp</li>
+                            <li><a href="{{ url('/project') }}">1. Child care & Protection, Child Right, Education, Development</a></li>
+                            <li><a href="{{ url('/health') }}">2. Health</a></li>
+                            <li><a href="{{ url('/project') }}">3. Women and Youth Empowerment</a></li>
+                            <li><a href="{{ url('/project') }}">4. Handicrafts Development</a></li>
+                            <li><a href="{{ url('/project') }}">5. Education</a></li>
+                            <li><a href="{{ url('/project') }}">6. Water Resource Management</a></li>
+                            <li><a href="{{ url('/project') }}">7. Prevention of begging</a></li>
+                            <li><a href="{{ url('/project') }}">8. Child Labor & Child Marriage</a></li>
+                            <li><a href="{{ url('/project') }}">9. De-addiction</a></li>
+                            <li><a href="{{ url('/project') }}">10. Disabled Person Development Programme</a></li>
+                            <li><a href="{{ url('/project') }}">11. Skill & Vocational Training</a></li>
+                            <li><a href="{{ url('/project') }}">12. Senior Citizens Care & Protection, Development</a></li>
+                            <li><a href="{{ url('/project') }}">13. Awareness Camp & Medical Camp</a></li>
                         </ul>
                     </div>
                 </div>
