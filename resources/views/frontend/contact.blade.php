@@ -35,7 +35,7 @@
                         {{-- <a href="{{ url('/contact') }}" class="btn">About US</a> --}}
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <div class="about-back-img ">
+                        <div class="contect-back-img ">
                             <img src="{{ asset('public/assets/frontend/img/gallery/Picture1.jpg') }} " alt="Profile">
                         </div>
                     </div>
