@@ -3926,27 +3926,27 @@ button:hover {
   color: #3B1E1E;
   line-height: 1.6;
   margin-bottom: 43px;
-  padding-right: 20px;
+  padding-right: 70px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 5, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/public/assets/scss/_about.scss */
   .about-low-area .about-caption p {
-    padding-right: 20px;
+    padding-right: 70px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 5, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/public/assets/scss/_about.scss */
   .about-low-area .about-caption p {
-    padding-right: 0px;
+    padding-right: 70px;
   }
 }
 
 @media (max-width: 575px) {
   /* line 5, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/public/assets/scss/_about.scss */
   .about-low-area .about-caption p {
-    padding-right: 0px;
+    padding-right: 70px;
   }
 }
 
