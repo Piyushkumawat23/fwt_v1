@@ -21,35 +21,55 @@
             </div>
         </div>
         <section class="about-low-area section-padding2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-10">
-                    <div class="about-caption mb-50">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle mb-35">
-                            {{-- <span>About our foundetion</span> --}}
-                            <h2>Working Areas</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-10 d-flex align-items-center">
+                        <div class="about-caption mb-50">
+                            <!-- Section Tittle -->
+                            <div class="section-tittle mb-35">
+                                {{-- <span>About our foundetion</span> --}}
+                                <h2>Working Areas</h2>
+                            </div>
+                            <p>The working areas are wide spread in the some districts of Rajasthan state. Bundi, Tonk, Kota, Shahpura, Bhilwara, Ajmer. </p>
                         </div>
-                        <p>The working areas are wide spread in the some districts of Rajasthan state. Bundi, Tonk, Kota, Shahpura, Bhilwara, Ajmer. </p>
+                        {{-- <a href="{{ url('/contact') }}" class="btn">About US</a> --}}
                     </div>
-                    <a href="{{ url('/contact') }}" class="btn">About US</a>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <!-- about-img -->
-                    <div class="about-img ">
-                        {{-- <div class="about-font-img d-none d-lg-block">
-                            <img src="{{ asset('public/assets/frontend/img/gallery/about4.png') }} "alt="Profile">
-                        </div> --}}
+                    <div class="col-lg-6 col-md-12">
                         <div class="about-back-img ">
                             <img src="{{ asset('public/assets/frontend/img/gallery/Picture1.jpg') }} " alt="Profile">
-
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
         <!-- Hero End -->
+
+        {{-- <section class="about-low-area section-padding2">
+            <div class="container">
+                <div class="left-side">
+                    <img src="{{ asset('public/assets/frontend/img/gallery/about-home.jpg') }} " alt="Profile">
+                    </div>
+                    <div class="right-side">
+                    <h2>Contact Us</h2>
+                    <form action="submit-form.php" method="POST">
+                        <label>Name <span>*</span></label>
+                        <div class="name-fields">
+                        <input type="text" name="first_name" placeholder="First" required />
+                        <input type="text" name="last_name" placeholder="Last" required />
+                        </div>
+
+                        <label>Email <span>*</span></label>
+                        <input type="email" name="email" placeholder="Enter your email" required />
+
+                        <label>Leave us a few words <span>*</span></label>
+                        <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+                        <button type="submit">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </section> --}}
+
         <!--?  Contact Area start  -->
         <section class="contact-section">
             <div class="container">
