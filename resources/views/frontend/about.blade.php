@@ -128,7 +128,7 @@
     </section>
     <!-- About Law End-->
     <!-- Want To work -->
-    <section class="wantToWork-area ">
+    <section class="wantToWork-area-1 ">
         <div class="container">
             <div class="wants-wrapper w-padding2  section-bg" data-background="{{ asset('public/assets/frontend/img/gallery/h1_hero.jpg') }} " alt="Profile">
                 <div class="row align-items-center justify-content-between">

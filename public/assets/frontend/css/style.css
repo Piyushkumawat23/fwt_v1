@@ -772,7 +772,7 @@ button:hover {
 
 /* line 318, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/public/assets/scss/_common.scss */
 .white-btn::before {
-  background: #F87171;
+  background: #24ac75;
   color: #fff !important;
 }
 
@@ -4690,7 +4690,11 @@ button:hover {
 /* line 1, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/public/assets/scss/_wantTowork.scss */
 .wantToWork-area {
   background: #f8fcff;
-  padding-bottom: 0px;
+  padding-bottom: 70px;
+}
+.wantToWork-area-1 {
+  background: #f8fcff;
+  padding-bottom: 70px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4698,6 +4702,9 @@ button:hover {
   .wantToWork-area {
     padding-bottom: 100px;
   }
+  .wantToWork-area-1 {
+  padding-bottom: 100px;
+}
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -4705,6 +4712,9 @@ button:hover {
   .wantToWork-area {
     padding-bottom: 70px;
   }
+  .wantToWork-area-1 {
+  padding-bottom: 70px;
+}
 }
 
 @media (max-width: 575px) {
@@ -4712,10 +4722,20 @@ button:hover {
   .wantToWork-area {
     padding-bottom: 70px;
   }
+  .wantToWork-area-1 {
+    padding-bottom: 70px;
+}
 }
 
 /* line 14, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/public/assets/scss/_wantTowork.scss */
 .wantToWork-area .wantToWork-caption h2 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+}
+.wantToWork-area-1 .wantToWork-caption h2 {
   color: #fff;
   font-size: 35px;
   font-weight: 700;
@@ -4728,11 +4748,18 @@ button:hover {
   .wantToWork-area .wantToWork-caption h2 {
     font-size: 30px;
   }
+   .wantToWork-area-1 .wantToWork-caption h2 {
+    font-size: 30px;
+  }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 14, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/public/assets/scss/_wantTowork.scss */
   .wantToWork-area .wantToWork-caption h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+    .wantToWork-area-1 .wantToWork-caption h2 {
     font-size: 35px;
     margin-bottom: 20px;
   }
@@ -4744,16 +4771,27 @@ button:hover {
     font-size: 25px;
     margin-bottom: 20px;
   }
+    .wantToWork-area-1 .wantToWork-caption h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
 }
 
 /* line 33, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/public/assets/scss/_wantTowork.scss */
 .wantToWork-area .wantToWork-caption p {
   font-size: 18px;
 }
+.wantToWork-area-1 .wantToWork-caption p {
+  font-size: 18px;
+}
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 37, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/public/assets/scss/_wantTowork.scss */
   .wantToWork-area .wantToWork-btn {
+    float: left;
+    margin-top: 30px;
+  }
+    .wantToWork-area-1 .wantToWork-btn {
     float: left;
     margin-top: 30px;
   }
@@ -4765,11 +4803,19 @@ button:hover {
     float: left;
     margin-top: 30px;
   }
+    .wantToWork-area-1 .wantToWork-btn {
+    float: left;
+    margin-top: 30px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 37, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/public/assets/scss/_wantTowork.scss */
   .wantToWork-area .wantToWork-btn {
+    float: left;
+    margin-top: 30px;
+  }
+    .wantToWork-area-1 .wantToWork-btn {
     float: left;
     margin-top: 30px;
   }
